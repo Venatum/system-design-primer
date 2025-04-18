@@ -310,17 +310,17 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 >
 > Les solutions sont liées au contenu du dossier `solutions/`.
 
-| Question                                                                                            |                                                              |
-|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| Concevez Pastebin.com (ou Bit.ly)                                                                   | [Solution](solutions/system_design/pastebin/README-fr.md)    |
-| Concevez la timeline et la recherche de Twitter (ou le fil d'actualité et la recherche de Facebook) | [Solution](solutions/system_design/twitter/README.md)        |
-| Concevez un crawler web                                                                             | [Solution](solutions/system_design/web_crawler/README.md)    |
-| Concevez Mint.com                                                                                   | [Solution](solutions/system_design/mint/README-fr.md)        |
-| Concevez les structures de données pour un réseau social                                            | [Solution](solutions/system_design/social_graph/README.md)   |
-| Concevez un magasin clé-valeur pour un moteur de recherche                                          | [Solution](solutions/system_design/query_cache/README-fr.md) |
-| Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon                          | [Solution](solutions/system_design/sales_rank/README.md)     |
-| Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS              | [Solution](solutions/system_design/scaling_aws/README.md)    |
-| Ajouter une question de conception système                                                          | [Contribuer](#contributing)                                  |
+| Question                                                                                            |                                                               |
+|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Concevez Pastebin.com (ou Bit.ly)                                                                   | [Solution](solutions/system_design/pastebin/README-fr.md)     |
+| Concevez la timeline et la recherche de Twitter (ou le fil d'actualité et la recherche de Facebook) | [Solution](solutions/system_design/twitter/README-fr.md)      |
+| Concevez un crawler web                                                                             | [Solution](solutions/system_design/web_crawler/README-fr.md)  |
+| Concevez Mint.com                                                                                   | [Solution](solutions/system_design/mint/README-fr.md)         |
+| Concevez les structures de données pour un réseau social                                            | [Solution](solutions/system_design/social_graph/README-fr.md) |
+| Concevez un magasin clé-valeur pour un moteur de recherche                                          | [Solution](solutions/system_design/query_cache/README-fr.md)  |
+| Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon                          | [Solution](solutions/system_design/sales_rank/README-fr.md)   |
+| Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS              | [Solution](solutions/system_design/scaling_aws/README-fr.md)  |
+| Ajouter une question de conception système                                                          | [Contribuer](#contributing)                                   |
 
 ### Concevoir Pastebin.com (ou Bit.ly)
 
@@ -330,13 +330,13 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 ### Concevez la timeline et la recherche de Twitter (ou le fil d'actualité et la recherche de Facebook)
 
-[Voir exercice et solution](solutions/system_design/twitter/README.md)
+[Voir exercice et solution](solutions/system_design/twitter/README-fr.md)
 
 ![Imgur](images/jrUBAF7.png)
 
 ### Concevez un crawler web
 
-[Voir exercice et solution](solutions/system_design/web_crawler/README.md)
+[Voir exercice et solution](solutions/system_design/web_crawler/README-fr.md)
 
 ![Imgur](images/bWxPtQA.png)
 
@@ -348,7 +348,7 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 ### Concevez les structures de données pour un réseau social
 
-[Voir exercice et solution](solutions/system_design/social_graph/README.md)
+[Voir exercice et solution](solutions/system_design/social_graph/README-fr.md)
 
 ![Imgur](images/cdCv5g7.png)
 
@@ -360,13 +360,13 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 ### Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon
 
-[Voir exercice et solution](solutions/system_design/sales_rank/README.md)
+[Voir exercice et solution](solutions/system_design/sales_rank/README-fr.md)
 
 ![Imgur](images/MzExP06.png)
 
 ### Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS
 
-[Voir exercice et solution](solutions/system_design/scaling_aws/README.md)
+[Voir exercice et solution](solutions/system_design/scaling_aws/README-fr.md)
 
 ![Imgur](images/jj3A5N8.png)
 
