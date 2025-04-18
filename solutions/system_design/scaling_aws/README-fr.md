@@ -262,7 +262,7 @@ Nos **Benchmarks/Tests de charge** et **Profilage** montrent que nous avons une 
 
 #### Hypothèses
 
-Nos **Benchmarks/Tests de charge** et **Profilage** montrent que notre trafic augmente pendant les heures de bureau normales aux États-Unis et diminue considérablement lorsque les utilisateurs quittent le bureau. Nous pensons pouvoir réduire les coûts en augmentant et diminuant automatiquement le nombre de serveurs en fonction de la charge réelle. Nous sommes une petite équipe, donc nous aimerions automatiser autant que possible les opérations DevOps pour l'**Autoscaling** et pour les opérations générales.
+Nos **Benchmarks/Tests de charge** et **Profilage** montrent que notre trafic augmente pendant les heures de bureau normales aux États-Unis et diminue considérablement lorsque les utilisateurs quittent le bureau. Nous pensons pouvoir réduire les coûts en augmentant et réduisant automatiquement le nombre de serveurs en fonction de la charge réelle. Nous sommes une petite équipe, donc nous aimerions automatiser autant que possible les opérations DevOps pour l'**Autoscaling** et pour les opérations générales.
 
 #### Objectifs
 
@@ -366,7 +366,7 @@ Nous pouvons davantage séparer nos [**Serveurs d'Application**](https://github.
     * [Mise en cache du serveur web](https://github.com/donnemartin/system-design-primer#web-server-caching)
     * [Mise en cache de la base de données](https://github.com/donnemartin/system-design-primer#database-caching)
     * [Mise en cache de l'application](https://github.com/donnemartin/system-design-primer#application-caching)
-* Quoi mettre en cache
+* Que mettre en cache
     * [Mise en cache au niveau de la requête de base de données](https://github.com/donnemartin/system-design-primer#caching-at-the-database-query-level)
     * [Mise en cache au niveau de l'objet](https://github.com/donnemartin/system-design-primer#caching-at-the-object-level)
 * Quand mettre à jour le cache
