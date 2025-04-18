@@ -310,21 +310,21 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 >
 > Les solutions sont liées au contenu du dossier `solutions/`.
 
-| Question                                                                                            |                                                            |
-|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| Concevez Pastebin.com (ou Bit.ly)                                                                   | [Solution](solutions/system_design/pastebin/README.md)     |
-| Concevez la timeline et la recherche de Twitter (ou le fil d'actualité et la recherche de Facebook) | [Solution](solutions/system_design/twitter/README.md)      |
-| Concevez un crawler web                                                                             | [Solution](solutions/system_design/web_crawler/README.md)  |
-| Concevez Mint.com                                                                                   | [Solution](solutions/system_design/mint/README.md)         |
-| Concevez les structures de données pour un réseau social                                            | [Solution](solutions/system_design/social_graph/README.md) |
-| Concevez un magasin clé-valeur pour un moteur de recherche                                          | [Solution](solutions/system_design/query_cache/README.md)  |
-| Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon                          | [Solution](solutions/system_design/sales_rank/README.md)   |
-| Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS              | [Solution](solutions/system_design/scaling_aws/README.md)  |
-| Ajouter une question de conception système                                                          | [Contribuer](#contributing)                                |
+| Question                                                                                            |                                                              |
+|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Concevez Pastebin.com (ou Bit.ly)                                                                   | [Solution](solutions/system_design/pastebin/README-fr.md)    |
+| Concevez la timeline et la recherche de Twitter (ou le fil d'actualité et la recherche de Facebook) | [Solution](solutions/system_design/twitter/README.md)        |
+| Concevez un crawler web                                                                             | [Solution](solutions/system_design/web_crawler/README.md)    |
+| Concevez Mint.com                                                                                   | [Solution](solutions/system_design/mint/README-fr.md)        |
+| Concevez les structures de données pour un réseau social                                            | [Solution](solutions/system_design/social_graph/README.md)   |
+| Concevez un magasin clé-valeur pour un moteur de recherche                                          | [Solution](solutions/system_design/query_cache/README-fr.md) |
+| Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon                          | [Solution](solutions/system_design/sales_rank/README.md)     |
+| Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS              | [Solution](solutions/system_design/scaling_aws/README.md)    |
+| Ajouter une question de conception système                                                          | [Contribuer](#contributing)                                  |
 
 ### Concevoir Pastebin.com (ou Bit.ly)
 
-[Voir exercice et solution](solutions/system_design/pastebin/README.md)
+[Voir exercice et solution](solutions/system_design/pastebin/README-fr.md)
 
 ![Imgur](images/4edXG0T.png)
 
@@ -342,7 +342,7 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 ### Concevez Mint.com
 
-[Voir exercice et solution](solutions/system_design/mint/README.md)
+[Voir exercice et solution](solutions/system_design/mint/README-fr.md)
 
 ![Imgur](images/V5q57vU.png)
 
@@ -354,7 +354,7 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 ### Concevez un magasin clé-valeur pour un moteur de recherche
 
-[Voir exercice et solution](solutions/system_design/query_cache/README.md)
+[Voir exercice et solution](solutions/system_design/query_cache/README-fr.md)
 
 ![Imgur](images/4j99mhe.png)
 
