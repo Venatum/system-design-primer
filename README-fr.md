@@ -19,11 +19,9 @@
 
 Apprendre à concevoir des systèmes évolutifs vous aidera à devenir un meilleur ingénieur.
 
-La conception de systèmes est un sujet vaste. Il existe **une immense quantité de ressources éparpillées sur le web**
-sur les principes de conception des systèmes.
+La conception de systèmes est un sujet vaste. Il existe **une immense quantité de ressources éparpillées sur le web** sur les principes de conception des systèmes.
 
-Ce dépôt est une **collection organisée** de ressources pour vous aider à apprendre comment concevoir des systèmes à
-grande échelle.
+Ce dépôt est une **collection organisée** de ressources pour vous aider à apprendre comment concevoir des systèmes à grande échelle.
 
 ### Apprenez de la communauté open source
 
@@ -33,19 +31,16 @@ Les [contributions](#contributing) sont les bienvenues !
 
 ### Préparez-vous aux entretiens de conception de systèmes
 
-En plus des entretiens de codage, la conception de systèmes est une **composante incontournable** du **processus
-d'entretien technique** dans de nombreuses entreprises technologiques.
+En plus des entretiens de codage, la conception de systèmes est une **composante incontournable** du **processus d'entretien technique** dans de nombreuses entreprises technologiques.
 
-**Entraînez-vous sur des questions courantes d'entretien de conception de systèmes** et **comparez** vos résultats avec
-**des solutions types** : discussions, code et diagrammes.
+**Entraînez-vous sur des questions courantes d'entretien de conception de systèmes** et **comparez** vos résultats avec **des solutions types** : discussions, code et diagrammes.
 
 Sujets supplémentaires pour vous préparer aux entretiens :
 
 * [Guide d'étude](#study-guide)
 * [Comment aborder une question d'entretien de conception de système](#how-to-approach-a-system-design-interview-question)
 * [Questions d'entretien en conception système, **avec solutions**](#system-design-interview-questions-with-solutions)
-* [Questions d'entretien en conception orientée objet, **avec solutions
-  **](#object-oriented-design-interview-questions-with-solutions)
+* [Questions d'entretien en conception orientée objet, **avec solutions**](#object-oriented-design-interview-questions-with-solutions)
 * [Questions supplémentaires d'entretien en conception de systèmes](#additional-system-design-interview-questions)
 
 ## Cartes mémoire Anki
@@ -55,12 +50,12 @@ Sujets supplémentaires pour vous préparer aux entretiens :
   <br/>
 </p>
 
-Les [paquets de cartes Anki](https://apps.ankiweb.net/) proposés utilisent la répétition espacée pour vous aider à
+Les [collections de cartes mémoire Anki](https://apps.ankiweb.net/) proposés utilisent la répétition espacée pour vous aider à
 retenir les concepts clés de la conception de systèmes.
 
-* [Paquet "Conception de systèmes"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
-* [Paquet "Exercices de conception de systèmes"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Paquet "Exercices de conception orientée objet"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/OO%20Design.apkg)
+* [Collection "Conception de systèmes"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
+* [Collection "Exercices de conception de systèmes"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Collection "Exercices de conception orientée objet"](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/OO%20Design.apkg)
 
 Idéal pour une utilisation en déplacement.
 
@@ -73,9 +68,9 @@ Vous cherchez des ressources pour vous préparer à l'[**Entretien de programmat
   <br/>
 </p>
 
-Consultez le dépôt compagnon [**Défis interactifs de programmation**](https://github.com/donnemartin/interactive-coding-challenges), contenant un autre paquet Anki :
+Consultez le dépôt compagnon [**Défis interactifs de programmation**](https://github.com/donnemartin/interactive-coding-challenges), contenant une autre collection Anki :
 
-* [Paquet "Programmation"](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
+* [Collection "Programmation"](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
 
 ## Contribuer
 
@@ -203,20 +198,12 @@ Ce qui est demandé lors d'un entretien dépend de plusieurs variables telles qu
 * Les entreprises avec lesquelles vous passez un entretien
 * La chance
 
-Les candidats plus expérimentés sont généralement censés en savoir plus sur la conception de systèmes. Les architectes
-ou les chefs d'équipe peuvent être obligés d'en savoir plus que les contributeurs individuels. Les grandes entreprises
-technologiques sont susceptibles d'avoir une ou plusieurs phases d'entretien de conception.
+Les candidats plus expérimentés sont généralement censés en savoir plus sur la conception de systèmes. Les architectes ou les chefs d'équipe peuvent être obligés d'en savoir plus que les contributeurs individuels. Les grandes entreprises technologiques sont susceptibles d'avoir une ou plusieurs phases d'entretien de conception.
+Commencez par une approche large, puis approfondissez certains sujets. Il est utile de connaître un peu divers sujets clés de conception de systèmes. Ajustez le guide suivant en fonction de votre calendrier, de votre expérience, des postes pour lesquels vous êtes candidat, et des entreprises concernées.
 
-Commencez par une approche large, puis approfondissez certains sujets. Il est utile de connaître un peu divers sujets
-clés de conception de systèmes. Ajustez le guide suivant en fonction de votre calendrier, de votre expérience, des
-postes pour lesquels vous êtes candidat, et des entreprises concernées.
-
-* **Calendrier court** - Ciblez **l'étendue** avec les sujets de conception système. Pratiquez en résolvant **quelques**
-  questions d'entretien.
-* **Calendrier moyen** - Ciblez **l'étendue** et **une certaine profondeur** avec les sujets de conception système.
-  Pratiquez en résolvant **de nombreuses** questions d'entretien.
-* **Calendrier long** - Ciblez **l'étendue** et **plus de profondeur** avec les sujets de conception système. Pratiquez
-  en résolvant **la plupart** des questions d'entretien.
+* **Calendrier court** - Ciblez **l'étendue** avec les sujets de conception système. Pratiquez en résolvant **quelques** questions d'entretien.
+* **Calendrier moyen** - Ciblez **l'étendue** et **une certaine profondeur** avec les sujets de conception système. Pratiquez en résolvant **de nombreuses** questions d'entretien.
+* **Calendrier long** - Ciblez **l'étendue** et **plus de profondeur** avec les sujets de conception système. Pratiquez en résolvant **la plupart** des questions d'entretien.
 
 |                                                                                                                                                           | Court terme | Moyen terme | Long terme |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|------------|
@@ -234,14 +221,11 @@ postes pour lesquels vous êtes candidat, et des entreprises concernées.
 
 L'entretien de conception de système est une **conversation ouverte**. Vous êtes censé la diriger.
 
-Vous pouvez utiliser les étapes suivantes pour guider la discussion. Pour maîtriser ce processus, entraînez-vous avec
-des exemples dans la
-section [Questions d'entretien en conception de systèmes avec solutions](#system-design-interview-questions-with-solutions).
+Vous pouvez utiliser les étapes suivantes pour guider la discussion. Pour maîtriser ce processus, entraînez-vous avec des exemples dans la section [Questions d'entretien en conception de systèmes avec solutions](#system-design-interview-questions-with-solutions).
 
 ### Étape 1 : Enoncer les cas d'utilisation, contraintes et hypothèses
 
-Recueillez les exigences et définissez l'étendue du problème. Posez des questions pour clarifier les cas d'utilisation
-et les contraintes. Discutez des hypothèses.
+Recueillez les exigences et définissez l'étendue du problème. Posez des questions pour clarifier les cas d'utilisation et les contraintes. Discutez des hypothèses.
 
 * Qui va l'utiliser ?
 * Comment vont-ils l'utiliser ?
@@ -275,21 +259,19 @@ de [concevoir un service de raccourcissement d'URL](solutions/system_design/past
 
 ### Étape 4 : Évoluer la conception
 
-Identifiez et résolvez les goulets d'étranglement en fonction des contraintes. Par exemple, avez-vous besoin des
-éléments suivants pour résoudre des problèmes d'évolutivité ?
+Identifiez et résolvez les goulets d'étranglement en fonction des contraintes. Par exemple, avez-vous besoin des éléments suivants pour résoudre des problèmes d'évolutivité ?
 
 * Équilibrage de charge
 * Mise à l'échelle horizontale
 * Mise en cache
 * Partitionnement de base de données
 
-Discutez des solutions potentielles et des compromis. Tout est une affaire de compromis. Abordez les goulets
-d'étranglement en utilisant les [principes de conception de systèmes évolutifs](#index-of-system-design-topics).
+Discutez des solutions potentielles et des compromis. Tout est une affaire de compromis.
+Abordez les goulets d'étranglement en utilisant les [principes de conception de systèmes évolutifs](#index-of-system-design-topics).
 
 ### Calculs approximatifs
 
-Il se peut qu'on vous demande de faire des estimations manuellement. Reportez-vous à [l'annexe](#appendix) pour les
-ressources suivantes :
+Il se peut qu'on vous demande de faire des estimations manuellement. Reportez-vous à [l'annexe](#appendix) pour les ressources suivantes :
 
 * [Utilisez les calculs approximatifs](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
 * [Tableau des puissances de deux](#powers-of-two-table)
@@ -394,8 +376,7 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 
 Nouveau en conception de systèmes ?
 
-Tout d'abord, vous aurez besoin d'une compréhension de base des principes courants, en apprenant ce qu'ils sont, comment
-ils sont utilisés, ainsi que leurs avantages et inconvénients.
+Tout d'abord, vous aurez besoin d'une compréhension de base des principes courants, en apprenant ce qu'ils sont, comment ils sont utilisés, ainsi que leurs avantages et inconvénients.
 
 ### Étape 1 : Regardez la vidéo sur l'évolutivité
 
@@ -433,16 +414,12 @@ Ensuite, nous plongerons dans des sujets plus spécifiques tels que le DNS, les 
 
 ## Performance vs Scalabilité
 
-Un service est **scalable** (évolutif) s'il permet une augmentation des **performances** de manière proportionnelle aux
-ressources ajoutées. En général, augmenter les performances signifie traiter davantage d'unités de travail, mais cela
-peut également consister à traiter des unités de travail plus importantes, par exemple lorsque les ensembles de données
-augmentent.<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
+Un service est **scalable** (évolutif) s'il permet une augmentation des **performances** de manière proportionnelle aux ressources ajoutées. En général, augmenter les performances signifie traiter davantage d'unités de travail, mais cela peut également consister à traiter des unités de travail plus importantes, par exemple lorsque les ensembles de données augmentent.<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
 
 Une autre façon de comparer performances et scalabilité :
 
 * Si vous avez un problème de **performance**, votre système est lent pour un seul utilisateur.
-* Si vous avez un problème de **scalabilité**, votre système est rapide pour un seul utilisateur, mais lent sous une
-  charge importante.
+* Si vous avez un problème de **scalabilité**, votre système est rapide pour un seul utilisateur, mais lent sous une charge importante.
 
 ### Sources et lectures complémentaires
 
@@ -474,25 +451,20 @@ En général, vous devriez viser un **débit maximal** tout en maintenant une **
 Dans un système informatique distribué, vous ne pouvez garantir que deux des trois propriétés suivantes :
 
 * **Cohérence** - Chaque lecture reçoit la dernière écriture ou une erreur.
-* **Disponibilité** - Chaque requête reçoit une réponse, sans garantie qu'elle contienne la version la plus récente de
-  l'information.
+* **Disponibilité** - Chaque requête reçoit une réponse, sans garantie qu'elle contienne la version la plus récente de l'information.
 * **Tolérance aux partitions** - Le système continue de fonctionner malgré une partition du réseau en raison de pannes.
 
-*Les réseaux ne sont pas fiables, donc vous devez supporter la tolérance aux partitions. Vous devrez ainsi faire un
-compromis logiciel entre cohérence et disponibilité.*
+*Les réseaux ne sont pas fiables, donc vous devez supporter la tolérance aux partitions. Vous devrez ainsi faire un compromis logiciel entre cohérence et disponibilité.*
 
 #### CP - Cohérence et tolérance aux partitions
 
-Attendre une réponse du nœud partitionné peut entraîner un délai d'expiration. CP est un bon choix si les besoins métier
-nécessitent des lectures et écritures atomiques.
+Attendre une réponse du nœud partitionné peut entraîner un délai d'expiration. CP est un bon choix si les besoins métier nécessitent des lectures et écritures atomiques.
 
 #### AP - Disponibilité et tolérance aux partitions
 
-Les réponses retournent la version la plus disponible des données sur n'importe quel nœud, qui peut ne pas être la plus
-récente. Les écritures peuvent prendre du temps à être propagées lorsque la partition est résolue.
+Les réponses retournent la version la plus disponible des données sur n'importe quel nœud, qui peut ne pas être la plus récente. Les écritures peuvent prendre du temps à être propagées lorsque la partition est résolue.
 
-AP est un bon choix si les besoins métier permettent une [cohérence éventuelle](#eventual-consistency) ou si le système
-doit continuer à fonctionner malgré des erreurs externes.
+AP est un bon choix si les besoins métier permettent une [cohérence éventuelle](#eventual-consistency) ou si le système doit continuer à fonctionner malgré des erreurs externes.
 
 ### Sources et lectures complémentaires
 
@@ -503,32 +475,25 @@ doit continuer à fonctionner malgré des erreurs externes.
 
 ## Modèles de cohérence
 
-Avec plusieurs copies des mêmes données, nous sommes confrontés à des options sur la manière de les synchroniser afin
-que les clients aient une vue cohérente des données. Rappelez-vous la définition de la cohérence selon
-le [théorème CAP](#cap-theorem) : chaque lecture reçoit la dernière écriture ou une erreur.
+Avec plusieurs copies des mêmes données, nous sommes confrontés à des options sur la manière de les synchroniser afin que les clients aient une vue cohérente des données. Rappelez-vous la définition de la cohérence selon le [théorème CAP](#cap-theorem) : chaque lecture reçoit la dernière écriture ou une erreur.
 
 ### Cohérence faible
 
-Après une écriture, les lectures peuvent ou non la voir. Une approche de « meilleur effort » est adoptée.
+Après une écriture, les lectures peuvent ou non la voir. Une approche de « meilleur effort (best effort) » est adoptée.
 
-Cette approche est utilisée dans des systèmes tels que memcached. La cohérence faible fonctionne bien pour des cas en
-temps réel comme la VoIP, les chats vidéo et les jeux multijoueurs en temps réel. Par exemple, si vous perdez la
-connexion lors d'un appel téléphonique, lorsque vous la récupérez, vous n'entendez pas ce qui a été dit pendant l'interruption.
+Cette approche est utilisée dans des systèmes tels que memcached. La cohérence faible fonctionne bien pour des cas en temps réel comme la VoIP, les chats vidéo et les jeux multijoueurs en temps réel. Par exemple, si vous perdez la connexion lors d'un appel téléphonique, lorsque vous la récupérez, vous n'entendez pas ce qui a été dit pendant l'interruption. 
 
 ### Cohérence éventuelle
 
-Après une écriture, les lectures la verront éventuellement (généralement en millisecondes). Les données sont répliquées
-de manière asynchrone.
+Après une écriture, les lectures la verront éventuellement (généralement en millisecondes). Les données sont répliquées de manière asynchrone.
 
-Cette approche est utilisée dans des systèmes tels que le DNS et les emails. La cohérence éventuelle fonctionne bien
-dans les systèmes à haute disponibilité.
+Cette approche est utilisée dans des systèmes tels que le DNS et les emails. La cohérence éventuelle fonctionne bien dans les systèmes à haute disponibilité.
 
 ### Cohérence forte
 
 Après une écriture, les lectures la verront immédiatement. Les données sont répliquées de manière synchrone.
 
-Cette approche est utilisée dans les systèmes de fichiers et les SGBDR (Systèmes de Gestion de Bases de Données
-Relationnelles). La cohérence forte convient aux systèmes ayant besoin de transactions.
+Cette approche est utilisée dans les systèmes de fichiers et les SGBDR (Systèmes de Gestion de Bases de Données Relationnelles). La cohérence forte convient aux systèmes ayant besoin de transactions.
 
 ### Sources et lectures complémentaires
 
@@ -542,11 +507,9 @@ Il existe deux schémas complémentaires pour garantir une haute disponibilité 
 
 #### Actif-passif
 
-Avec un basculement actif-passif, des signaux (heartbeats) sont envoyés entre le serveur actif et le serveur passif en
-veille. Si le signal est interrompu, le serveur passif prend l'adresse IP de l'actif et reprend le service.
+Avec un basculement actif-passif, des signaux (heartbeats) sont envoyés entre le serveur actif et le serveur passif en veille. Si le signal est interrompu, le serveur passif prend l'adresse IP de l'actif et reprend le service.
 
-La durée de l'interruption dépend du fait que le serveur passif fonctionne déjà en veille « active » (hot standby) ou
-s'il doit démarrer à partir d'une veille « froide » (cold standby). Seul le serveur actif gère le trafic.
+La durée de l'interruption dépend du fait que le serveur passif fonctionne déjà en veille « active » (hot standby) ou s'il doit démarrer à partir d'une veille « froide » (cold standby). Seul le serveur actif gère le trafic.
 
 Le basculement actif-passif peut également être nommé basculement maître-esclave.
 
@@ -554,16 +517,14 @@ Le basculement actif-passif peut également être nommé basculement maître-esc
 
 Dans une configuration actif-actif, les deux serveurs gèrent le trafic, répartissant la charge entre eux.
 
-Si les serveurs sont accessibles publiquement, le DNS doit connaître les IP publiques des deux serveurs. Si les serveurs
-sont internes, la logique de l'application doit gérer les deux serveurs.
+Si les serveurs sont accessibles publiquement, le DNS doit connaître les IP publiques des deux serveurs. Si les serveurs sont internes, la logique de l'application doit gérer les deux serveurs.
 
 Le basculement actif-actif peut également être appelé basculement maître-maître.
 
 ### Inconvénients : failover
 
 * Le failover nécessite plus de matériel et ajoute de la complexité.
-* Il existe un risque de perte de données si le système actif échoue avant que les données récemment écrites puissent
-  être répliquées vers le système passif.
+* Il existe un risque de perte de données si le système actif échoue avant que les données récemment écrites puissent être répliquées vers le système passif.
 
 ### Réplication
 
@@ -576,8 +537,7 @@ Ce sujet est davantage discuté dans la section [Base de données](#database) :
 
 ### Disponibilité en chiffres
 
-La disponibilité est souvent quantifiée en pourcentage d'uptime (ou de downtime). La disponibilité est généralement
-mesurée par le nombre de 9 — un service avec 99,99 % de disponibilité est décrit comme ayant quatre 9.
+La disponibilité est souvent quantifiée en pourcentage d'uptime (ou de downtime). La disponibilité est généralement mesurée par le nombre de 9 — un service avec 99,99 % de disponibilité est décrit comme ayant quatre 9.
 
 #### Disponibilité à 99,9% - trois 9
 
@@ -599,8 +559,7 @@ mesurée par le nombre de 9 — un service avec 99,99 % de disponibilité est d�
 
 #### Disponibilité en parallèle et en séquence
 
-Si un service se compose de plusieurs composants susceptibles de tomber en panne, la disponibilité globale dépend du
-fait que les composants soient en séquence ou en parallèle.
+Si un service se compose de plusieurs composants susceptibles de tomber en panne, la disponibilité globale dépend du fait que les composants soient en séquence ou en parallèle.
 
 ###### En séquence
 
@@ -632,20 +591,14 @@ Si `Foo` et `Bar` ont chacun une disponibilité de 99,9%, leur disponibilité to
 
 Un Système de Noms de Domaine (DNS) traduit un nom de domaine tel que www.example.com en une adresse IP.
 
-Le DNS est hiérarchique, avec quelques serveurs autoritaires au niveau supérieur. Votre routeur ou votre FAI fournit des
-informations sur le(s) serveur(s) DNS à contacter lors d'une requête. Les serveurs DNS de niveaux inférieurs mettent en
-cache les correspondances, qui peuvent devenir obsolètes en raison des délais de propagation DNS. Les résultats DNS
-peuvent également être mis en cache par votre navigateur ou votre système d'exploitation pour une durée déterminée par
-le [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live).
+Le DNS est hiérarchique, avec quelques serveurs autoritaires au niveau supérieur. Votre routeur ou votre FAI fournit des informations sur le(s) serveur(s) DNS à contacter lors d'une requête. Les serveurs DNS de niveaux inférieurs mettent en cache les correspondances, qui peuvent devenir obsolètes en raison des délais de propagation DNS. Les résultats DNS peuvent également être mis en cache par votre navigateur ou votre système d'exploitation pour une durée déterminée par le [time to live (TTL)](https://fr.wikipedia.org/wiki/Time_to_Live).
 
 * **Enregistrement NS (name server)**   : Spécifie les serveurs DNS pour votre domaine/sous-domaine.
 * **Enregistrement MX (mail exchange)**   : Spécifie les serveurs de messagerie qui acceptent les messages.
 * **Enregistrement A (adresse)**   : Pointe un nom vers une adresse IP.
-* **CNAME (canonique)**   : Pointe un nom vers un autre nom ou un `CNAME` (example.com vers www.example.com) ou vers un
-  enregistrement `A`.
+* **CNAME (canonique)**   : Pointe un nom vers un autre nom ou un `CNAME` (example.com vers www.example.com) ou vers un enregistrement `A`.
 
-Des services comme [CloudFlare](https://www.cloudflare.com/dns/) et [Route 53](https://aws.amazon.com/route53/)
-proposent des services DNS gérés. Certains services DNS peuvent router le trafic via différentes méthodes   :
+Des services comme [CloudFlare](https://www.cloudflare.com/dns/) et [Route 53](https://aws.amazon.com/route53/) proposent des services DNS gérés. Certains services DNS peuvent router le trafic via différentes méthodes   :
 
 * [Round Robin pondéré](https://www.jscape.com/blog/load-balancing-algorithms)   :
     * Empêche le trafic d'atteindre les serveurs en maintenance
@@ -654,14 +607,11 @@ proposent des services DNS gérés. Certains services DNS peuvent router le traf
 * [Basé sur la latence](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-latency.html)
 * [Basé sur la géolocalisation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geo.html)
 
-### Inconvénients   : DNS
+### Inconvénients: DNS
 
 * Accéder à un serveur DNS introduit un léger retard, bien que cela soit atténué par la mise en cache évoquée ci-dessus.
-* La gestion des serveurs DNS peut s'avérer complexe et est généralement assurée
-  par [les gouvernements, fournisseurs d'accès à Internet et grandes entreprises](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729).
-* Les services DNS ont récemment été la cible
-  d'[attaques DDoS](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/), empêchant les utilisateurs
-  d'accéder à des sites comme Twitter sans connaître l'(ou les) adresse(s) IP correspondantes.
+* La gestion des serveurs DNS peut s'avérer complexe et est généralement assurée par [les gouvernements, fournisseurs d'accès à Internet et grandes entreprises](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729).
+* Les services DNS ont récemment été la cible d'[attaques DDoS](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/), empêchant les utilisateurs d'accéder à des sites comme Twitter sans connaître l'(ou les) adresse(s) IP correspondantes.
 
 ### Sources et lectures complémentaires
 
@@ -677,10 +627,7 @@ proposent des services DNS gérés. Certains services DNS peuvent router le traf
   <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source : Pourquoi utiliser un CDN</a></i>
 </p>
 
-Un réseau de diffusion de contenu (CDN) est un réseau mondial distribué de serveurs proxy, servant du contenu depuis des
-emplacements plus proches de l'utilisateur. Généralement, des fichiers statiques tels que HTML, CSS, JS, des photos et
-des vidéos sont diffusés à partir d'un CDN, bien que certains CDN comme Amazon CloudFront prennent en charge du contenu
-dynamique. La résolution DNS du site indique aux clients quel serveur contacter.
+Un réseau de diffusion de contenu (CDN) est un réseau mondial distribué de serveurs proxy, servant du contenu depuis des emplacements plus proches de l'utilisateur. Généralement, des fichiers statiques tels que HTML, CSS, JS, des photos et des vidéos sont diffusés à partir d'un CDN, bien que certains CDN comme Amazon CloudFront prennent en charge du contenu dynamique. La résolution DNS du site indique aux clients quel serveur contacter.
 
 Diffuser du contenu via un CDN peut considérablement améliorer les performances de deux manières :
 
@@ -689,31 +636,21 @@ Diffuser du contenu via un CDN peut considérablement améliorer les performance
 
 ### Push CDN
 
-Les push CDN reçoivent du nouveau contenu à chaque fois qu'il y a un changement sur votre serveur. Vous êtes entièrement
-responsable de fournir le contenu, en téléchargeant directement vers le CDN et en réécrivant les URL pour pointer vers
-le CDN. Vous pouvez configurer la date d'expiration du contenu et quand il est mis à jour. Le contenu est téléchargé
-uniquement lorsqu'il est nouveau ou modifié, minimisant ainsi le trafic, mais maximisant l'espace de stockage.
+Les push CDN reçoivent du nouveau contenu à chaque fois qu'il y a un changement sur votre serveur. Vous êtes entièrement responsable de fournir le contenu, en téléchargeant directement vers le CDN et en réécrivant les URL pour pointer vers le CDN. Vous pouvez configurer la date d'expiration du contenu et quand il est mis à jour. Le contenu est téléchargé uniquement lorsqu'il est nouveau ou modifié, minimisant ainsi le trafic, mais maximisant l'espace de stockage.
 
-Les sites avec peu de trafic ou du contenu peu souvent mis à jour fonctionnent bien avec les push CDN. Le contenu est
-placé une seule fois sur le CDN, au lieu d'être récupéré régulièrement.
+Les sites avec peu de trafic ou du contenu peu souvent mis à jour fonctionnent bien avec les push CDN. Le contenu est placé une seule fois sur le CDN, au lieu d'être récupéré régulièrement.
 
 ### Pull CDN
 
-Les pull CDN récupèrent le nouveau contenu depuis votre serveur lorsque le premier utilisateur en fait la demande. Vous
-laissez le contenu sur votre serveur et réécrivez les URL pour pointer vers le CDN. Cela entraîne une réponse plus lente
-jusqu'à ce que le contenu soit mis en cache sur le CDN.
+Les pull CDN récupèrent le nouveau contenu depuis votre serveur lorsque le premier utilisateur en fait la demande. Vous laissez le contenu sur votre serveur et réécrivez les URL pour pointer vers le CDN. Cela entraîne une réponse plus lente jusqu'à ce que le contenu soit mis en cache sur le CDN.
 
-Un [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) détermine combien de temps le contenu reste en
-cache. Les pull CDN minimisent l'espace de stockage nécessaire sur le CDN, mais peuvent créer du trafic redondant si des
-fichiers expirent et sont récupérés avant qu'ils ne soient réellement modifiés.
+Un [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) détermine combien de temps le contenu reste en cache. Les pull CDN minimisent l'espace de stockage nécessaire sur le CDN, mais peuvent créer du trafic redondant si des fichiers expirent et sont récupérés avant qu'ils ne soient réellement modifiés.
 
-Les sites avec un trafic élevé fonctionnent bien avec les pull CDN, car le trafic est mieux réparti et seuls les
-contenus demandés récemment restent sur le CDN.
+Les sites avec un trafic élevé fonctionnent bien avec les pull CDN, car le trafic est mieux réparti et seuls les contenus demandés récemment restent sur le CDN.
 
 ### Inconvénients des CDN
 
-* Le coût des CDN peut être important en fonction du trafic, bien que cela doive être comparé aux coûts additionnels
-  encourus sans utiliser de CDN.
+* Le coût des CDN peut être important en fonction du trafic, bien que cela doive être comparé aux coûts additionnels encourus sans utiliser de CDN.
 * Le contenu peut devenir obsolète si mis à jour avant l'expiration du TTL.
 * Les CDN exigent la modification des URL pour pointer vers le CDN.
 
@@ -731,9 +668,7 @@ contenus demandés récemment restent sur le CDN.
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source : Modèles de conception de systèmes évolutifs</a></i>
 </p>
 
-Les répartiteurs de charge distribuent les requêtes entrantes des clients vers les ressources de calcul comme les
-serveurs d'application et les bases de données. Dans chaque cas, le répartiteur de charge renvoie la réponse de la
-ressource de calcul appropriée au client. Les répartiteurs de charge sont efficaces pour :
+Les répartiteurs de charge distribuent les requêtes entrantes des clients vers les ressources de calcul comme les serveurs d'application et les bases de données. Dans chaque cas, le répartiteur de charge renvoie la réponse de la ressource de calcul appropriée au client. Les répartiteurs de charge sont efficaces pour :
 
 * Empêcher les requêtes d'atteindre des serveurs non sains
 * Empêcher la surcharge des ressources
@@ -743,19 +678,16 @@ Les répartiteurs de charge peuvent être mis en œuvre avec du matériel (coût
 
 Bénéfices additionnels :
 
-* **Terminaison SSL** - Décrypte les requêtes entrantes et crypte les réponses des serveurs pour que les serveurs
-  backend n'aient pas à effectuer ces opérations coûteuses
+* **Terminaison SSL** - Décrypte les requêtes entrantes et crypte les réponses des serveurs pour que les serveurs backend n'aient pas à effectuer ces opérations coûteuses
     * Élimine le besoin d'installer des [certificats X.509](https://en.wikipedia.org/wiki/X.509) sur chaque serveur
-* **Persistance de session** - Émettre des cookies et router les requêtes spécifiques d'un client vers la même instance
-  si les applications web ne conservent pas les sessions
+* **Persistance de session** - Émettre des cookies et router les requêtes spécifiques d'un client vers la même instance si les applications web ne conservent pas les sessions
 
-Pour se protéger contre les pannes, il est courant d'installer plusieurs répartiteurs, en
-mode [actif-passif](#active-passive) ou [actif-actif](#active-active).
+Pour se protéger contre les pannes, il est courant d'installer plusieurs répartiteurs, en mode [actif-passif](#active-passive) ou [actif-actif](#active-active).
 
 Les répartiteurs de charge peuvent router le trafic selon divers critères, incluant :
 
-* Aléatoire
-* Moins chargé
+* Aléatoire (Random)
+* Moins chargé (Least loaded)
 * Session/cookies
 * [Round robin ou round robin pondéré](https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb)
 * [Niveau 4](#layer-4-load-balancing)
@@ -763,46 +695,30 @@ Les répartiteurs de charge peuvent router le trafic selon divers critères, inc
 
 ### Répartition au niveau 4
 
-Les répartiteurs de charge du niveau 4 examinent les informations au niveau de la [couche transport](#communication)
-pour décider comment distribuer les requêtes. Cela implique généralement les adresses IP source, destination et les
-ports dans l'en-tête, mais pas le contenu du paquet. Les répartiteurs de niveau 4 transfèrent les paquets réseau vers et
-depuis le serveur en amont en effectuant
-une [traduction d'adresse réseau (NAT)](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
+Les répartiteurs de charge du niveau 4 examinent les informations au niveau de la [couche transport](#communication) pour décider comment distribuer les requêtes. Cela implique généralement les adresses IP source, destination et les ports dans l'en-tête, mais pas le contenu du paquet. Les répartiteurs de niveau 4 transfèrent les paquets réseau vers et depuis le serveur en amont en effectuant une [traduction d'adresse réseau (NAT)](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
 
 ### Répartition au niveau 7
 
-Les répartiteurs de charge du niveau 7 examinent la [couche application](#communication) pour décider comment distribuer
-les requêtes. Cela peut inclure le contenu des en-têtes, des messages et des cookies. Les répartiteurs de niveau 7
-terminent le trafic réseau, lisent les messages, prennent une décision de répartition de charge, puis ouvrent une
-connexion au serveur sélectionné. Par exemple, un répartiteur de charge de niveau 7 peut diriger le trafic vidéo vers
-des serveurs dédiés aux vidéos tout en envoyant le trafic de facturation sécurisée vers des serveurs renforcés.
+Les répartiteurs de charge du niveau 7 examinent la [couche application](#communication) pour décider comment distribuer les requêtes. Cela peut inclure le contenu des en-têtes, des messages et des cookies. Les répartiteurs de niveau 7 terminent le trafic réseau, lisent les messages, prennent une décision de répartition de charge, puis ouvrent une connexion au serveur sélectionné. Par exemple, un répartiteur de charge de niveau 7 peut diriger le trafic vidéo vers des serveurs dédiés aux vidéos tout en envoyant le trafic de facturation sécurisée vers des serveurs renforcés.
 
-Bien que leur flexibilité soit limitée, les répartiteurs de niveau 4 demandent moins de ressources et de temps que ceux
-de niveau 7, même si l'impact sur les performances est minime avec le matériel moderne.
+Bien que leur flexibilité soit limitée, les répartiteurs de niveau 4 demandent moins de ressources et de temps que ceux de niveau 7, même si l'impact sur les performances est minime avec le matériel moderne.
 
 ### Mise à l'échelle horizontale
 
-Les répartiteurs de charge peuvent également faciliter la mise à l'échelle horizontale, améliorant les performances et
-la disponibilité. Élargir l'infrastructure avec des machines standards est plus rentable et offre une meilleure
-disponibilité que de surdimensionner un serveur sur du matériel spécialisé, une approche appelée **mise à l'échelle
-verticale**. C'est aussi plus facile de recruter pour des technologies standards que pour des systèmes spécialisés.
+Les répartiteurs de charge peuvent également faciliter la mise à l'échelle horizontale, améliorant les performances et la disponibilité. Élargir l'infrastructure avec des machines standards est plus rentable et offre une meilleure disponibilité que de surdimensionner un serveur sur du matériel spécialisé, une approche appelée **mise à l'échelle verticale**. C'est aussi plus facile de recruter pour des technologies standards que pour des systèmes spécialisés.
 
 #### Inconvénients : mise à l'échelle horizontale
 
 * Augmente la complexité et nécessite la duplication de serveurs
-    * Les serveurs doivent être sans état : ils ne doivent pas contenir de données spécifiques aux utilisateurs
-    * Les sessions peuvent être stockées dans une datastore centralisée comme une [base de données](#database) (SQL,
-      NoSQL) ou un [cache persistant](#cache) (Redis, Memcached)
-* Les systèmes en aval (caches, bases de données) doivent gérer plus de connexions simultanées lorsque les serveurs en
-  amont s'étendent.
+    * Les serveurs doivent être sans état (stateless) : ils ne doivent pas contenir de données spécifiques aux utilisateurs
+    * Les sessions peuvent être stockées dans un datastore centralisé comme une [base de données](#database) (SQL, NoSQL) ou un [cache persistant](#cache) (Redis, Memcached)
+* Les systèmes en aval (caches, bases de données) doivent gérer plus de connexions simultanées lorsque les serveurs en amont s'étendent.
 
 ### Inconvénients : répartiteur de charge
 
-* Le répartiteur de charge peut devenir un goulot d'étranglement s'il n'est pas correctement configuré ou ne dispose pas
-  de ressources suffisantes.
-* Ajouter un répartiteur de charge pour éliminer un point de défaillance unique augmente la complexité.
-* Un répartiteur de charge unique est un point de défaillance ; configurer plusieurs répartiteurs complique encore
-  davantage.
+* Le répartiteur de charge peut devenir un goulot d'étranglement s'il n'est pas correctement configuré ou ne dispose pas de ressources suffisantes.
+* Introduire un répartiteur de charge pour aider à éliminer un point de défaillance unique conduit à une complexité accrue.
+* Un répartiteur de charge unique est un point de défaillance ; configurer plusieurs répartiteurs complique encore davantage.
 
 ### Sources et lectures complémentaires
 
@@ -823,18 +739,13 @@ verticale**. C'est aussi plus facile de recruter pour des technologies standards
   <br/>
 </p>
 
-Un proxy inverse est un serveur web qui centralise les services internes et fournit des interfaces unifiées au public.
-Les requêtes des clients sont transmises au serveur capable de les traiter avant que le proxy inverse ne retourne la
-réponse du serveur au client.
+Un proxy inverse est un serveur web qui centralise les services internes et fournit des interfaces unifiées au public. Les requêtes des clients sont transmises au serveur capable de les traiter avant que le proxy inverse ne retourne la réponse du serveur au client.
 
 Les avantages supplémentaires incluent :
 
-* **Sécurité accrue** - Cache les informations sur les serveurs backend, bloque les IP indésirables, limite le nombre de
-  connexions par client.
-* **Évolutivité et flexibilité accrues** - Les clients voient uniquement l'IP du proxy inverse, ce qui vous permet de
-  faire évoluer les serveurs ou de modifier leur configuration.
-* **Terminaison SSL** - Décrypte les requêtes entrantes et crypte les réponses des serveurs backend, évitant à ces
-  derniers de réaliser ces opérations coûteuses.
+* **Sécurité accrue** - Cache les informations sur les serveurs backend, bloque les IP indésirables, limite le nombre de connexions par client.
+* **Évolutivité et flexibilité accrues** - Les clients voient uniquement l'IP du proxy inverse, ce qui vous permet de faire évoluer les serveurs ou de modifier leur configuration.
+* **Terminaison SSL** - Décrypte les requêtes entrantes et crypte les réponses des serveurs backend, évitant à ces derniers de réaliser ces opérations coûteuses.
     * Supprime la nécessité d'installer des [certificats X.509](https://en.wikipedia.org/wiki/X.509) sur chaque serveur.
 * **Compression** - Compresse les réponses des serveurs.
 * **Mise en cache** - Renvoie la réponse des requêtes mises en cache.
@@ -846,17 +757,14 @@ Les avantages supplémentaires incluent :
 
 ### Répartiteur de charge vs proxy inverse
 
-* Déployer un répartiteur de charge est utile lorsque vous disposez de plusieurs serveurs. Souvent, les répartiteurs de
-  charge routent le trafic vers un ensemble de serveurs ayant les mêmes fonctions.
-* Les proxys inverses peuvent être utiles même avec un seul serveur web ou une application, en offrant les avantages
-  mentionnés ci-dessus.
-* Des solutions comme NGINX et HAProxy peuvent gérer à la fois le proxy inverse de niveau 7 et le répartition de charge.
+* Déployer un répartiteur de charge est utile lorsque vous disposez de plusieurs serveurs. Souvent, les répartiteurs de charge routent le trafic vers un ensemble de serveurs ayant les mêmes fonctions.
+* Les proxys inverses peuvent être utiles même avec un seul serveur web ou une application, en offrant les avantages mentionnés ci-dessus.
+* Des solutions comme NGINX et HAProxy peuvent gérer à la fois le proxy inverse de niveau 7 et la répartition de charge.
 
 ### Inconvénients : proxy inverse
 
 * L'introduction d'un proxy inverse augmente la complexité.
-* Un proxy inverse unique est un point de défaillance ; configurer plusieurs proxys inverses (par ex. via
-  un [basculement](https://en.wikipedia.org/wiki/Failover)) augmente aussi la complexité.
+* Un proxy inverse unique est un point de défaillance ; configurer plusieurs proxys inverses (par ex. via un [basculement (Failover)](https://en.wikipedia.org/wiki/Failover)) augmente aussi la complexité.
 
 ### Sources et lectures complémentaires
 
@@ -873,38 +781,23 @@ Les avantages supplémentaires incluent :
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source : Introduction à l'architecture des systèmes à l'échelle</a></i>
 </p>
 
-L'isolation de la couche Web par rapport à la couche d'application (également appelée la couche plateforme) permet de
-dimensionner et de configurer ces deux couches indépendamment. Ajouter une nouvelle API se traduit par l'ajout de
-serveurs applicatifs sans nécessairement augmenter le nombre de serveurs web. Le **principe de responsabilité unique**
-préconise de petits services autonomes qui fonctionnent ensemble. De petites équipes avec de petits services peuvent
-planifier de manière plus agressive pour une croissance rapide.
+L'isolation de la couche Web par rapport à la couche d'application (également appelée la couche plateforme) permet de dimensionner et de configurer ces deux couches indépendamment. Ajouter une nouvelle API se traduit par l'ajout de serveurs applicatifs sans nécessairement augmenter le nombre de serveurs web. Le **principe de responsabilité unique** préconise de petits services autonomes qui fonctionnent ensemble. De petites équipes avec de petits services peuvent planifier de manière plus agressive pour une croissance rapide.
 
-Les tâches asynchrones au sein de la couche application permettent également de bénéficier
-de [l'asynchronisme](#asynchronism).
+Les tâches asynchrones au sein de la couche application permettent également de bénéficier de [l'asynchronisme](#asynchronism).
 
 ### Microservices
 
-En lien avec cette discussion, [les microservices](https://en.wikipedia.org/wiki/Microservices) peuvent être décrits
-comme un ensemble de services petits, modulaires et déployables indépendamment. Chaque service exécute un processus
-unique et communique via un mécanisme léger et bien défini pour atteindre un objectif
-métier. <sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
+En lien avec cette discussion, [les microservices](https://en.wikipedia.org/wiki/Microservices) peuvent être décrits comme un ensemble de services petits, modulaires et déployables indépendamment. Chaque service exécute un processus unique et communique via un mécanisme léger et bien défini pour atteindre un objectif métier. <sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
 
-Par exemple, Pinterest pourrait avoir les microservices suivants : profil utilisateur, abonnés, flux, recherche,
-téléchargement de photo, etc.
+Par exemple, Pinterest pourrait avoir les microservices suivants : profil utilisateur, abonnés, flux, recherche, téléchargement de photo, etc.
 
 ### Découverte de services
 
-Des systèmes tels que [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest)
-et [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) peuvent aider les services à se
-localiser mutuellement en tenant à jour les noms enregistrés, les adresses et les ports.
-Les [vérifications de l'état](https://www.consul.io/intro/getting-started/checks.html) permettent de vérifier
-l'intégrité des services, souvent via une requête [HTTP](#hypertext-transfer-protocol-http). Consul et Etcd intègrent
-un [magasin clé-valeur](#key-value-store) utile pour stocker les valeurs de configuration et d'autres données partagées.
+Des systèmes tels que [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest) et [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) peuvent aider les services à se localiser mutuellement en tenant à jour les noms enregistrés, les adresses et les ports. Les [vérifications de l'état](https://www.consul.io/intro/getting-started/checks.html) permettent de vérifier l'intégrité des services, souvent via une requête [HTTP](#hypertext-transfer-protocol-http). Consul et Etcd intègrent un [magasin clé-valeur](#key-value-store) utile pour stocker les valeurs de configuration et d'autres données partagées.
 
 ### Inconvénients : couche application
 
-* Ajouter une couche application avec des services faiblement couplés exige une approche différente en termes
-  d'architecture, d'opérations et de processus (par rapport à un système monolithique).
+* Ajouter une couche application avec des services faiblement couplés exige une approche différente en termes d'architecture, d'opérations et de processus (par rapport à un système monolithique).
 * Les microservices peuvent ajouter de la complexité lors des déploiements et des opérations.
 
 ### Sources et lectures complémentaires
@@ -927,23 +820,18 @@ un [magasin clé-valeur](#key-value-store) utile pour stocker les valeurs de con
 
 Une base de données relationnelle comme SQL est une collection de données organisées en tables.
 
-**ACID** est un ensemble de propriétés des [transactions](https://en.wikipedia.org/wiki/Database_transaction) d'une base
-de données relationnelle.
+**ACID** est un ensemble de propriétés des [transactions](https://en.wikipedia.org/wiki/Database_transaction) d'une base de données relationnelle.
 
 * **Atomicité** - Chaque transaction est soit totalement exécutée, soit non exécutée.
 * **Cohérence** - Toute transaction amène la base de données d'un état valide à un autre.
 * **Isolation** - L'exécution de transactions en parallèle donne les mêmes résultats que leur exécution en série.
 * **Durabilité** - Une fois qu'une transaction est validée, elle reste ainsi.
 
-De nombreuses techniques permettent de faire évoluer une base relationnelle : **réplication maître-esclave**, *
-*réplication maître-maître**, **fédération**, **sharding**, **dénormalisation**, et **optimisation SQL**.
+De nombreuses techniques permettent de faire évoluer une base relationnelle : **réplication maître-esclave**, **réplication maître-maître**, **fédération**, **sharding**, **dénormalisation**, et **optimisation SQL**.
 
 #### Réplication maître-esclave
 
-Le maître gère les lectures et écritures, répliquant les écritures vers un ou plusieurs esclaves, qui ne servent que les
-lectures. Les esclaves peuvent également répliquer à d'autres esclaves de manière arborescente. Si le maître devient
-hors ligne, le système peut continuer à fonctionner en mode lecture seule jusqu'à ce qu'un esclave soit promu maître ou
-qu'un nouveau maître soit configuré.
+Le maître gère les lectures et écritures, répliquant les écritures vers un ou plusieurs esclaves, qui ne servent que les lectures. Les esclaves peuvent également répliquer à d'autres esclaves de manière arborescente. Si le maître devient hors ligne, le système peut continuer à fonctionner en mode lecture seule jusqu'à ce qu'un esclave soit promu maître ou qu'un nouveau maître soit configuré.
 
 <p align="center">
   <img src="images/C9ioGtn.png">
@@ -954,13 +842,11 @@ qu'un nouveau maître soit configuré.
 ##### Inconvénients : réplication maître-esclave
 
 * Une logique supplémentaire est nécessaire pour promouvoir un esclave en maître.
-* Voir [Inconvénients : réplication](#inconvenients-replication) pour les points liés à **la réplication maître-esclave
-  et maître-maître**.
+* Voir [Inconvénients: réplication](#inconvenients-replication) pour les points liés à **la réplication maître-esclave et maître-maître**.
 
 #### Réplication maître-maître
 
-Deux maîtres gèrent les lectures et les écritures, se coordonnant mutuellement sur les écritures. Si l'un des maîtres
-tombe en panne, le système peut continuer à fonctionner pour les lectures et les écritures.
+Deux maîtres gèrent les lectures et les écritures, se coordonnant mutuellement sur les écritures. Si l'un des maîtres tombe en panne, le système peut continuer à fonctionner pour les lectures et les écritures.
 
 <p align="center">
   <img src="images/krAHLGg.png">
@@ -970,24 +856,17 @@ tombe en panne, le système peut continuer à fonctionner pour les lectures et l
 
 ##### Inconvénients : réplication maître-maître
 
-* Un répartiteur de charge ou des modifications dans la logique de l'application sont nécessaires pour déterminer où
-  écrire.
-* La plupart des systèmes maître-maître sont soit faiblement cohérents (violant ACID), soit augmentent la latence
-  d'écriture en raison de la synchronisation.
-* La résolution de conflits devient plus importante à mesure que davantage de nœuds d'écriture sont ajoutés ou que la
-  latence augmente.
-* Voir [Inconvénients : réplication](#inconvenients-replication) pour les points liés à **la réplication maître-esclave
-  et maître-maître**.
+* Un répartiteur de charge ou des modifications dans la logique de l'application sont nécessaires pour déterminer où écrire.
+* La plupart des systèmes maître-maître sont soit faiblement cohérents (violant ACID), soit augmentent la latence d'écriture en raison de la synchronisation.
+* La résolution de conflits devient plus importante à mesure que davantage de nœuds d'écriture sont ajoutés ou que la latence augmente.
+* Voir [Inconvénients: réplication](#inconvenients-replication) pour les points liés à **la réplication maître-esclave et maître-maître**.
 
 ##### Inconvénients : réplication
 
-* Risque potentiel de perte de données si le maître échoue avant que les données nouvellement écrites ne soient
-  répliquées.
-* Les écritures sont rejouées sur les répliques de lecture. S'il y a beaucoup d'écritures, les répliques peuvent être
-  surchargées en les rejouant, réduisant le nombre de lectures possibles.
+* Risque potentiel de perte de données si le maître échoue avant que les données nouvellement écrites ne soient répliquées.
+* Les écritures sont rejouées sur les répliques de lecture. S'il y a beaucoup d'écritures, les répliques peuvent être surchargées en les rejouant, réduisant le nombre de lectures possibles.
 * Plus il y a d'esclaves pour la lecture, plus la réplication est importante, exacerbant les retards de réplication.
-* Sur certains systèmes, l'écriture sur le maître peut engendrer des threads multiples en parallèle, alors que les
-  répliques ne supportent que des écritures séquentielles avec un thread unique.
+* Sur certains systèmes, l'écriture sur le maître peut engendrer de multiples threads en parallèle, alors que les répliques ne supportent que des écritures séquentielles avec un thread unique.
 * La réplication nécessite plus de matériel et ajoute de la complexité.
 
 ##### Sources et lectures complémentaires : réplication
@@ -1003,19 +882,13 @@ tombe en panne, le système peut continuer à fonctionner pour les lectures et l
   <i><a href=https://www.youtube.com/watch?v=kKjm4ehYiMs>Source : Scaling up to your first 10 million users</a></i>
 </p>
 
-La fédération (ou partitionnement fonctionnel) segmente les bases de données par fonction. Par exemple, à la place d'une
-base de données monolithique unique, vous pouvez avoir trois bases de données: **forums**, **utilisateurs**, et *
-*produits**, ce qui réduit le trafic de lecture et d'écriture sur chaque base et donc les retards de réplication. Des
-bases de données plus petites permettent à plus de données de tenir en mémoire, ce qui augmente les taux de cache grâce
-à une meilleure localité. Avec aucun maître central unique pour sérialiser les écritures, vous pouvez écrire en
-parallèle, augmentant le débit.
+La fédération (ou partitionnement fonctionnel) segmente les bases de données par fonction. Par exemple, à la place d'une base de données monolithique unique, vous pouvez avoir trois bases de données: **forums**, **utilisateurs**, et **produits**, ce qui réduit le trafic de lecture et d'écriture sur chaque base et donc les retards de réplication. Des bases de données plus petites permettent à plus de données de tenir en mémoire, ce qui augmente les taux de cache grâce à une meilleure localité. Avec aucun maître central unique pour sérialiser les écritures, vous pouvez écrire en parallèle, augmentant le débit.
 
 ##### Inconvénients : fédération
 
 * La fédération est inefficace si votre schéma nécessite de grandes fonctions ou tables.
 * Vous devrez modifier la logique de votre application pour déterminer quelle base de données lire et écrire.
-* Effectuer des jointures entre deux bases de données devient plus complexe avec
-  un [lien entre serveurs](http://stackoverflow.com/questions/5145637/querying-data-by-joining-two-tables-in-two-database-on-different-servers).
+* Effectuer des jointures entre deux bases de données devient plus complexe avec un [lien entre serveurs](http://stackoverflow.com/questions/5145637/querying-data-by-joining-two-tables-in-two-database-on-different-servers).
 * La fédération nécessite davantage de matériel et accroît la complexité.
 
 ##### Sources et lectures complémentaires : fédération
@@ -1030,28 +903,17 @@ parallèle, augmentant le débit.
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source : Scalability, availability, stability, patterns</a></i>
 </p>
 
-La fragmentation distribue les données entre plusieurs bases de données de sorte que chacune gère uniquement un
-sous-ensemble des données. Prenons une base de données utilisateurs : à mesure que leur nombre augmente, davantage de
-fragments sont ajoutés au cluster.
+La fragmentation distribue les données entre plusieurs bases de données de sorte que chacune gère uniquement un sous-ensemble des données. Prenons une base de données utilisateurs : à mesure que leur nombre augmente, davantage de fragments sont ajoutés au cluster.
 
-Similaire aux avantages de la [fédération](#federation), la fragmentation entraîne moins de trafic en lecture et
-écriture, moins de réplications et plus de cache hits. La taille des index est également réduite, ce qui améliore
-généralement les performances avec des requêtes plus rapides. Si un fragment tombe en panne, les autres continuent de
-fonctionner, bien qu'il soit recommandé d'ajouter une forme de réplication pour éviter une perte de données. Tout comme
-la fédération, il n'y a pas de maître central unique, ce qui permet des écritures parallèles avec un débit accru.
+Similaire aux avantages de la [fédération](#federation), la fragmentation entraîne moins de trafic en lecture et écriture, moins de réplications et plus de cache hits. La taille des index est également réduite, ce qui améliore généralement les performances avec des requêtes plus rapides. Si un fragment tombe en panne, les autres continuent de fonctionner, bien qu'il soit recommandé d'ajouter une forme de réplication pour éviter une perte de données. Tout comme la fédération, il n'y a pas de maître central unique, ce qui permet des écritures parallèles avec un débit accru.
 
-Parmi les approches courantes pour fragmenter une table d'utilisateurs, on peut citer l'initiale du nom de famille ou la
-localisation géographique.
+Parmi les approches courantes pour fragmenter une table d'utilisateurs, on peut citer l'initiale du nom de famille ou la localisation géographique.
 
 ##### Inconvénients : fragmentation
 
-* Vous devrez mettre à jour la logique de votre application pour travailler avec des fragments, ce qui pourrait
-  entraîner des requêtes SQL complexes.
-* La répartition des données peut devenir déséquilibrée dans un fragment. Par exemple, un groupe d'utilisateurs très
-  actifs dans un fragment pourrait entraîner une charge accrue sur celui-ci par rapport aux autres.
-    * L'équilibrage de charge ajoute de la complexité. Une fonction de fragmentation basée sur
-      le [hachage cohérent](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html) peut réduire la
-      quantité de données transférées.
+* Vous devrez mettre à jour la logique de votre application pour travailler avec des fragments, ce qui pourrait entraîner des requêtes SQL complexes.
+* La répartition des données peut devenir déséquilibrée dans un fragment. Par exemple, un groupe d'utilisateurs très actifs dans un fragment pourrait entraîner une charge accrue sur celui-ci par rapport aux autres.
+    * L'équilibrage de charge ajoute de la complexité. Une fonction de fragmentation basée sur le [hachage cohérent](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html) peut réduire la quantité de données transférées.
 * Effectuer des jointures entre plusieurs fragments est plus complexe.
 * La fragmentation nécessite plus de matériel et accroît la complexité.
 
@@ -1063,27 +925,17 @@ localisation géographique.
 
 #### Dénormalisation
 
-La dénormalisation vise à améliorer les performances de lecture au détriment des performances d'écriture. Des copies
-redondantes des données sont écrites dans plusieurs tables pour éviter des jointures coûteuses. Certains SGBDR tels
-que [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) et Oracle prennent en charge
-des [vues matérialisées](https://en.wikipedia.org/wiki/Materialized_view) qui gèrent le stockage des informations
-redondantes et la cohérence des copies redondantes.
+La dénormalisation vise à améliorer les performances de lecture au détriment des performances d'écriture. Des copies redondantes des données sont écrites dans plusieurs tables pour éviter des jointures coûteuses. Certains SGBDR tels que [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) et Oracle prennent en charge des [vues matérialisées](https://en.wikipedia.org/wiki/Materialized_view) qui gèrent le stockage des informations redondantes et la cohérence des copies redondantes.
 
-Une fois les données distribuées par des techniques telles que la [fédération](#federation) ou
-la [fragmentation](#sharding), la gestion des jointures entre centres de données augmente encore la complexité. La
-dénormalisation peut contourner le besoin de telles jointures complexes.
+Une fois les données distribuées par des techniques telles que la [fédération](#federation) ou la [fragmentation](#sharding), la gestion des jointures entre centres de données augmente encore la complexité. La dénormalisation peut contourner le besoin de telles jointures complexes.
 
-Dans la plupart des systèmes, les lectures surpassent largement les écritures, parfois par des proportions de 100:1 ou
-même 1000:1. Une lecture avec une jointure complexe de bases peut être très coûteuse, nécessitant beaucoup d'opérations
-sur disque.
+Dans la plupart des systèmes, les lectures surpassent largement les écritures, parfois par des proportions de 100:1 ou même 1000:1. Une lecture avec une jointure complexe de bases peut être très coûteuse, nécessitant beaucoup d'opérations sur disque.
 
 ##### Inconvénients : dénormalisation
 
 * Les données sont dupliquées.
-* Les contraintes nécessaires pour garantir la cohérence des copies redondantes augmentent la complexité de la
-  conception de la base de données.
-* Une base dénormalisée soumise à une forte charge d'écriture peut avoir de moins bonnes performances qu'une base
-  normalisée.
+* Les contraintes nécessaires pour garantir la cohérence des copies redondantes augmentent la complexité de la conception de la base de données.
+* Une base dénormalisée soumise à une forte charge d'écriture peut avoir de moins bonnes performances qu'une base normalisée.
 
 ###### Sources et lectures complémentaires : dénormalisation
 
@@ -1091,17 +943,12 @@ sur disque.
 
 #### Optimisation SQL
 
-L'optimisation SQL est un sujet vaste et de
-nombreux [livres](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=sql+tuning) y font
-référence.
+L'optimisation SQL est un sujet vaste et de nombreux [livres](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=sql+tuning) y font référence.
 
 Il est essentiel de **faire des benchmarks** et de **profiler** pour simuler et identifier les goulots d'étranglement.
 
-* **Benchmark** - Simulez des charges importantes avec des outils
-  comme [ab](http://httpd.apache.org/docs/2.2/programs/ab.html).
-* **Profiler** - Utilisez des outils comme
-  le [slow query log](http://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html) pour détecter des problèmes de
-  performance.
+* **Benchmark** - Simulez des charges importantes avec des outils comme [ab](http://httpd.apache.org/docs/2.2/programs/ab.html).
+* **Profiler** - Utilisez des outils comme le [slow query log](http://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html) pour détecter des problèmes de performance.
 
 Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
@@ -1109,27 +956,21 @@ Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
 * MySQL enregistre sur le disque en blocs contigus pour des accès rapides.
 * Utilisez `CHAR` au lieu de `VARCHAR` pour les champs à longueur fixe.
-    * `CHAR` permet un accès rapide et aléatoire, tandis qu'avec `VARCHAR`, vous devez trouver la fin d'une chaîne avant
-      de passer à la suivante.
-* Utilisez `TEXT` pour de grands blocs de texte comme des articles de blog. `TEXT` permet également des recherches
-  booléennes.
+    * `CHAR` permet un accès rapide et aléatoire, tandis qu'avec `VARCHAR`, vous devez trouver la fin d'une chaîne avant de passer à la suivante.
+* Utilisez `TEXT` pour de grands blocs de texte comme des articles de blog. `TEXT` permet également des recherches booléennes.
 * Utilisez `INT` pour des nombres jusqu'à 2^32 ou 4 milliards.
-* Utilisez `DECIMAL` pour les valeurs monétaires afin d'éviter les erreurs de représentation des nombres à virgule
-  flottante.
+* Utilisez `DECIMAL` pour les valeurs monétaires afin d'éviter les erreurs de représentation des nombres à virgule flottante.
 * Évitez de stocker de grands `BLOBS`. Indiquez plutôt leur emplacement.
 * `VARCHAR(255)` représente la limite maximale que peut compter un octet dans un champ à 8 bits sur certains SGBDR.
-* Ajoutez la contrainte `NOT NULL` si possible
-  pour [améliorer les performances de recherche](http://stackoverflow.com/questions/1017239/how-do-null-values-affect-performance-in-a-database-search).
+* Ajoutez la contrainte `NOT NULL` si possible pour [améliorer les performances de recherche](http://stackoverflow.com/questions/1017239/how-do-null-values-affect-performance-in-a-database-search).
 
 ##### Utilisez des index efficaces
 
 * Les colonnes interrogées (`SELECT`, `GROUP BY`, `ORDER BY`, `JOIN`) peuvent être optimisées grâce à des index.
-* Un index est souvent représenté comme un [B-tree auto-équilibré](https://en.wikipedia.org/wiki/B-tree) qui conserve
-  les données triées tout en permettant des insertions, suppressions et recherches en temps logarithmique.
+* Un index est souvent représenté comme un [B-tree auto-équilibré](https://fr.wikipedia.org/wiki/Arbre_B) qui conserve les données triées tout en permettant des insertions, suppressions et recherches en temps logarithmique.
 * Ajouter un index peut nécessiter plus d'espace en mémoire pour conserver les données triées.
 * Les écritures peuvent être plus lentes, car l'index doit également être mis à jour.
-* Lors de chargements massifs de données, il peut être plus efficace de désactiver les index, charger les données, puis
-  de les reconstruire.
+* Lors de chargements massifs de données, il peut être plus efficace de désactiver les index, charger les données, puis de les reconstruire.
 
 ##### Évitez les jointures coûteuses
 
@@ -1141,8 +982,7 @@ Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
 ##### Optimisez le cache des requêtes
 
-* Dans certains cas, le [cache des requêtes](https://dev.mysql.com/doc/refman/5.7/en/query-cache.html) peut entraîner
-  des [problèmes de performance](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/).
+* Dans certains cas, le [cache des requêtes](https://dev.mysql.com/doc/refman/5.7/en/query-cache.html) peut entraîner des [problèmes de performance](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/).
 
 ##### Sources et lectures complémentaires : optimisation SQL
 
@@ -1153,39 +993,25 @@ Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
 ### NoSQL
 
-NoSQL est un ensemble d'éléments de données représentés dans un **magasin clé-valeur**, un **magasin de documents**, un
-**magasin par colonnes larges** ou une **base de données orientée graphe**. Les données sont dénormalisées et les
-jointures sont généralement effectuées au niveau du code de l'application. La plupart des magasins NoSQL ne respectent
-pas complètement les transactions ACID et privilégient la [consistance éventuelle](#eventual-consistency).
+NoSQL est un ensemble d'éléments de données représentés dans un **magasin clé-valeur**, un **magasin de documents**, un **magasin par colonnes larges** ou une **base de données orientée graphe**. Les données sont dénormalisées et les jointures sont généralement effectuées au niveau du code de l'application. La plupart des magasins NoSQL ne respectent pas complètement les transactions ACID et privilégient la [consistance éventuelle](#eventual-consistency).
 
-**BASE** est souvent utilisé pour décrire les propriétés des bases de données NoSQL. Contrairement
-au [théorème CAP](#cap-theorem), BASE privilégie la disponibilité à la consistance.
+**BASE** est souvent utilisé pour décrire les propriétés des bases de données NoSQL. Contrairement au [théorème CAP](#cap-theorem), BASE privilégie la disponibilité à la consistance.
 
 * **Basically available (disponibilité essentielle)** - Le système garantit la disponibilité.
 * **Soft state (état malléable)** - L'état du système peut évoluer au fil du temps, même sans entrée.
-* **Eventual consistency (consistance éventuelle)** - Le système deviendra cohérent après une période de temps, tant
-  qu'il ne reçoit pas de nouvelles entrées pendant cette période.
+* **Eventual consistency (consistance éventuelle)** - Le système deviendra cohérent après une période de temps, tant qu'il ne reçoit pas de nouvelles entrées pendant cette période.
 
-En plus de choisir entre [SQL ou NoSQL](#sql-or-nosql), il est utile de comprendre quel type de base de données NoSQL
-convient le mieux à vos cas d'utilisation. Nous examinerons les **magasins clé-valeur**, les **magasins de documents**,
-les **magasins par colonnes larges**, et les **bases de données orientées graphe** dans la section suivante.
+En plus de choisir entre [SQL ou NoSQL](#sql-or-nosql), il est utile de comprendre quel type de base de données NoSQL convient le mieux à vos cas d'utilisation. Nous examinerons les **magasins clé-valeur**, les **magasins de documents**, les **magasins par colonnes larges**, et les **bases de données orientées graphe** dans la section suivante.
 
 #### Magasin clé-valeur
 
 > Abstraction : table de hachage
 
-Un magasin clé-valeur permet généralement des opérations de lecture et d'écriture en O(1) et est souvent basé sur de la
-mémoire ou des disques SSD. Ces magasins peuvent maintenir les clés dans
-un [ordre lexicographique](https://en.wikipedia.org/wiki/Lexicographical_order), ce qui permet une récupération efficace
-de plages de clés. Les magasins clé-valeur peuvent également stocker des métadonnées avec une valeur.
+Un magasin clé-valeur permet généralement des opérations de lecture et d'écriture en O(1) et est souvent basé sur de la mémoire ou des disques SSD. Ces magasins peuvent maintenir les clés dans un [ordre lexicographique](https://en.wikipedia.org/wiki/Lexicographical_order), ce qui permet une récupération efficace de plages de clés. Les magasins clé-valeur peuvent également stocker des métadonnées avec une valeur.
 
-Les magasins clé-valeur offrent de hautes performances et sont souvent utilisés pour des modèles de données simples ou
-pour des données changeant rapidement, comme une couche de cache en mémoire. Étant donné qu'ils n'offrent qu'un ensemble
-limité d'opérations, la complexité est reportée sur la couche applicative si des opérations supplémentaires sont
-nécessaires.
+Les magasins clé-valeur offrent de hautes performances et sont souvent utilisés pour des modèles de données simples ou pour des données changeant rapidement, comme une couche de cache en mémoire. Étant donné qu'ils n'offrent qu'un ensemble limité d'opérations, la complexité est reportée sur la couche applicative si des opérations supplémentaires sont nécessaires.
 
-Un magasin clé-valeur constitue la base de systèmes plus complexes tels qu'un magasin de documents, et dans certains
-cas, une base de données graphe.
+Un magasin clé-valeur constitue la base de systèmes plus complexes tels qu'un magasin de documents, et dans certains cas, une base de données graphe.
 
 ##### Sources et lectures complémentaires : magasin clé-valeur
 
@@ -1198,23 +1024,13 @@ cas, une base de données graphe.
 
 > Abstraction : magasin clé-valeur avec des documents stockés sous forme de valeurs
 
-Un magasin de documents est basé sur des documents (XML, JSON, binaire, etc.), où un document contient toutes les
-informations pour un objet donné. Les magasins de documents proposent des API ou un langage de requête pour interroger
-la structure interne des documents. *Notez que de nombreux magasins clé-valeur incluent des fonctionnalités pour
-travailler avec les métadonnées d'une valeur, brouillant les lignes entre ces deux types de stockage.*
+Un magasin de documents est basé sur des documents (XML, JSON, binaire, etc.), où un document contient toutes les informations pour un objet donné. Les magasins de documents proposent des API ou un langage de requête pour interroger la structure interne des documents. *Notez que de nombreux magasins clé-valeur incluent des fonctionnalités pour travailler avec les métadonnées d'une valeur, brouillant les lignes entre ces deux types de stockage.*
 
-Selon l'implémentation sous-jacente, les documents sont organisés par collections, balises, métadonnées ou répertoires.
-Bien que les documents puissent être organisés ou regroupés, ils peuvent contenir des champs complètement différents les
-uns des autres.
+Selon l'implémentation sous-jacente, les documents sont organisés par collections, balises, métadonnées ou répertoires. Bien que les documents puissent être organisés ou regroupés, ils peuvent contenir des champs complètement différents les uns des autres.
 
-Certains magasins de documents tels que [MongoDB](https://www.mongodb.com/mongodb-architecture)
-et [CouchDB](https://blog.couchdb.org/2016/08/01/couchdb-2-0-architecture/) offrent un langage similaire au SQL pour
-effectuer des requêtes
-complexes. [DynamoDB](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf) prend en charge à
-la fois les clés-valeurs et les documents.
+Certains magasins de documents tels que [MongoDB](https://www.mongodb.com/mongodb-architecture) et [CouchDB](https://blog.couchdb.org/2016/08/01/couchdb-2-0-architecture/) offrent un langage similaire au SQL pour effectuer des requêtes complexes. [DynamoDB](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf) prend en charge à la fois les clés-valeurs et les documents.
 
-Les magasins de documents offrent une grande flexibilité et sont souvent utilisés pour des données qui changent
-occasionnellement.
+Les magasins de documents offrent une grande flexibilité et sont souvent utilisés pour des données qui changent occasionnellement.
 
 ##### Sources et lectures complémentaires : magasin de documents
 
@@ -1233,21 +1049,11 @@ occasionnellement.
 
 > Abstraction : map imbriquée `ColumnFamily<RowKey, Columns<ColKey, Value, Timestamp>>`
 
-L'unité de base d'un magasin par colonnes larges est une colonne (paire nom/valeur). Une colonne peut être regroupée
-dans des familles de colonnes (analogue à une table SQL). Les super-familles de colonnes regroupent davantage ces
-familles. On peut accéder à chaque colonne indépendamment à l'aide d'une clé de ligne, et les colonnes ayant la même clé
-de ligne forment une ligne. Chaque valeur contient un horodatage pour la gestion des versions et la résolution des
-conflits.
+L'unité de base d'un magasin par colonnes larges est une colonne (paire nom/valeur). Une colonne peut être regroupée dans des familles de colonnes (analogue à une table SQL). Les super-familles de colonnes regroupent davantage ces familles. On peut accéder à chaque colonne indépendamment à l'aide d'une clé de ligne, et les colonnes ayant la même clé de ligne forment une ligne. Chaque valeur contient un horodatage pour la gestion des versions et la résolution des conflits.
 
-Google a introduit [Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf) comme
-premier magasin par colonnes larges, influençant le projet
-open-source [HBase](https://www.edureka.co/blog/hbase-architecture/) souvent utilisé dans l'écosystème Hadoop
-et [Cassandra](http://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html) de Facebook. Des
-magasins comme Bigtable, HBase et Cassandra maintiennent les clés dans un ordre lexicographique, permettant une
-récupération efficace de plages de clés spécifiques.
+Google a introduit [Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf) comme premier magasin par colonnes larges, influençant le projet open-source [HBase](https://www.edureka.co/blog/hbase-architecture/) souvent utilisé dans l'écosystème Hadoop et [Cassandra](http://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html) de Facebook. Des magasins comme Bigtable, HBase et Cassandra maintiennent les clés dans un ordre lexicographique, permettant une récupération efficace de plages de clés spécifiques.
 
-Les magasins par colonnes larges offrent une haute disponibilité et une grande évolutivité. Ils sont souvent utilisés
-pour des ensembles de données très volumineux.
+Les magasins par colonnes larges offrent une haute disponibilité et une grande évolutivité. Ils sont souvent utilisés pour des ensembles de données très volumineux.
 
 ##### Sources et lectures complémentaires : magasin par colonnes larges
 
@@ -1266,14 +1072,9 @@ pour des ensembles de données très volumineux.
 
 > Abstraction: graphe
 
-Dans une base de données orientée graphe, chaque nœud représente un enregistrement et chaque arc une relation entre deux
-nœuds. Les bases orientées graphe sont optimisées pour représenter des relations complexes avec de nombreuses clés
-étrangères ou des relations plusieurs-à-plusieurs.
+Dans une base de données orientée graphe, chaque nœud représente un enregistrement et chaque arc une relation entre deux nœuds. Les bases orientées graphe sont optimisées pour représenter des relations complexes avec de nombreuses clés étrangères ou des relations plusieurs-à-plusieurs.
 
-Les bases orientées graphe offrent de hautes performances pour des modèles de données complexes, comme ceux d'un réseau
-social. Elles sont relativement récentes et ne sont pas encore largement utilisées, ce qui peut rendre plus difficile la
-recherche d'outils de développement et de ressources. De nombreux graphes ne peuvent être accessibles que via
-des [APIs REST](#representational-state-transfer-rest).
+Les bases orientées graphe offrent de hautes performances pour des modèles de données complexes, comme ceux d'un réseau social. Elles sont relativement récentes et ne sont pas encore largement utilisées, ce qui peut rendre plus difficile la recherche d'outils de développement et de ressources. De nombreux graphes ne peuvent être accessibles que via des [APIs REST](#representational-state-transfer-rest).
 
 ##### Sources et lectures complémentaires : graphe
 
@@ -1339,18 +1140,13 @@ Exemples de données bien adaptées à NoSQL :
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source : Scalable system design patterns</a></i>
 </p>
 
-Le cache améliore les temps de chargement des pages et peut réduire la charge sur vos serveurs et bases de données. Dans
-ce modèle, le répartiteur vérifie d'abord si la requête a déjà été effectuée et tente de trouver le résultat précédent à
-renvoyer, afin d'éviter l'exécution réelle.
+Le cache améliore les temps de chargement des pages et peut réduire la charge sur vos serveurs et bases de données. Dans ce modèle, le répartiteur vérifie d'abord si la requête a déjà été effectuée et tente de trouver le résultat précédent à renvoyer, afin d'éviter l'exécution réelle.
 
-Les bases de données bénéficient souvent d'une répartition uniforme des lectures et des écritures entre leurs
-partitions. Les éléments populaires peuvent déséquilibrer cette répartition, causant des goulets d'étranglement. Placer
-un cache devant une base de données peut aider à absorber des charges irrégulières et des pics de trafic.
+Les bases de données bénéficient souvent d'une répartition uniforme des lectures et des écritures entre leurs partitions. Les éléments populaires peuvent déséquilibrer cette répartition, causant des goulets d'étranglement. Placer un cache devant une base de données peut aider à absorber des charges irrégulières et des pics de trafic.
 
 ### Cache côté client
 
-Les caches peuvent se trouver côté client (système d'exploitation ou
-navigateur), [côté serveur](#reverse-proxy-web-server) ou dans une couche distincte dédiée au cache.
+Les caches peuvent se trouver côté client (système d'exploitation ou navigateur), [côté serveur](#reverse-proxy-web-server) ou dans une couche distincte dédiée au cache.
 
 ### Cache CDN
 
@@ -1358,54 +1154,40 @@ Les [CDNs](#content-delivery-network) sont considérés comme un type de cache.
 
 ### Cache au niveau du serveur web
 
-Des [proxies inverses](#reverse-proxy-web-server) et des caches comme [Varnish](https://www.varnish-cache.org/) peuvent
-servir directement du contenu statique et dynamique. Les serveurs web peuvent également mettre en cache des requêtes,
-renvoyant des réponses sans avoir besoin de contacter les serveurs applicatifs.
+Des [proxies inverses](#reverse-proxy-web-server) et des caches comme [Varnish](https://www.varnish-cache.org/) peuvent servir directement du contenu statique et dynamique. Les serveurs web peuvent également mettre en cache des requêtes, renvoyant des réponses sans avoir besoin de contacter les serveurs applicatifs.
 
 ### Cache de base de données
 
-Votre base de données inclut généralement un certain niveau de cache dans sa configuration par défaut, optimisée pour un
-cas d'utilisation générique. Ajuster ces paramètres en fonction des modèles d'utilisation spécifiques peut améliorer
-encore les performances.
+Votre base de données inclut généralement un certain niveau de cache dans sa configuration par défaut, optimisée pour un cas d'utilisation générique. Ajuster ces paramètres en fonction des modèles d'utilisation spécifiques peut améliorer encore les performances.
 
 ### Cache d'application
 
-Les caches en mémoire comme Memcached et Redis sont des magasins clé-valeur situés entre votre application et votre
-système de stockage de données. Comme les données sont conservées en RAM, elles sont beaucoup plus rapides que dans des
-bases classiques où les données résident sur disque. La RAM étant plus limitée que le disque, les algorithmes
-d'[invalidation de cache](https://en.wikipedia.org/wiki/Cache_algorithms) comme
-le [Least Recently Used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU))
-peuvent aider à invalider les entrées "froides" et garder les données "chaudes" en RAM.
+Les caches en mémoire comme Memcached et Redis sont des magasins clé-valeur situés entre votre application et votre système de stockage de données. Comme les données sont conservées en RAM, elles sont beaucoup plus rapides que dans des bases classiques où les données résident sur disque. La RAM étant plus limitée que le disque, les algorithmes d'[invalidation de cache](https://en.wikipedia.org/wiki/Cache_algorithms) comme le [Least Recently Used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) peuvent aider à invalider les entrées "froides" et garder les données "chaudes" en RAM.
 
 Redis offre les fonctionnalités supplémentaires suivantes :
 
 * Option de persistance
 * Structures de données intégrées telles que les ensembles triés et les listes
 
-Il existe plusieurs niveaux possibles de cache, répartis en deux catégories générales : **requêtes de base de données**
-et **objets** :
+Il existe plusieurs niveaux possibles de cache, répartis en deux catégories générales : **requêtes de base de données** et **objets** :
 
 * Au niveau des lignes
 * Au niveau des requêtes
 * Objets sérialisables entièrement formés
 * HTML intégralement rendu
 
-De manière générale, il est recommandé d'éviter le cache basé sur des fichiers, car cela complique le clonage et
-l'auto-scalabilité.
+De manière générale, il est recommandé d'éviter le cache basé sur des fichiers, car cela complique le clonage et l'auto-scalabilité.
 
 ### Mise en cache au niveau des requêtes de base de données
 
-À chaque requête exécutée sur la base de données, il est possible de hacher la requête comme clé et d'enregistrer le
-résultat dans le cache. Cependant, cette méthode souffre de certaines limitations liées à l'expiration des données :
+À chaque requête exécutée sur la base de données, il est possible de hacher la requête comme clé et d'enregistrer le résultat dans le cache. Cependant, cette méthode souffre de certaines limitations liées à l'expiration des données :
 
 * Difficile de supprimer un résultat mis en cache lors de requêtes complexes.
-* Si un élément de données change (comme une cellule de tableau), toutes les requêtes mises en cache incluant cette
-  cellule doivent être invalidées.
+* Si un élément de données change (comme une cellule de tableau), toutes les requêtes mises en cache incluant cette cellule doivent être invalidées.
 
 ### Mise en cache au niveau objet
 
-Traitez vos données comme des objets, similaire à ce que vous faites au niveau du code applicatif. Faites construire par
-votre application le jeu de données à partir de la base dans une instance de classe ou une/des structure(s) de données :
+Traitez vos données comme des objets, similaire à ce que vous faites au niveau du code applicatif. Faites construire par votre application le jeu de données à partir de la base dans une instance de classe ou une/des structure(s) de données :
 
 * Supprimez l'objet du cache si ses données sous-jacentes ont changé.
 * Permet un traitement asynchrone : des workers assemblent des objets en consommant l'objet mis en cache le plus récent.
@@ -1419,8 +1201,7 @@ Suggestions de ce qu'il convient de mettre en cache :
 
 ### Quand mettre à jour le cache
 
-Étant donné que vous ne pouvez stocker qu'une quantité limitée de données dans le cache, vous devrez déterminer quelle
-stratégie de mise à jour convient le mieux à votre cas d'utilisation.
+Étant donné que vous ne pouvez stocker qu'une quantité limitée de données dans le cache, vous devrez déterminer quelle stratégie de mise à jour convient le mieux à votre cas d'utilisation.
 
 #### Cache-aside
 
@@ -1430,8 +1211,7 @@ stratégie de mise à jour convient le mieux à votre cas d'utilisation.
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source : From cache to in-memory data grid</a></i>
 </p>
 
-L'application est responsable de la lecture/écriture depuis le stockage. Le cache n'interagit pas directement avec le
-stockage. L'application procède comme suit :
+L'application est responsable de la lecture/écriture depuis le stockage. Le cache n'interagit pas directement avec le stockage. L'application procède comme suit :
 
 * Cherche une entrée dans le cache, entraînant un cache miss si elle n'existe pas.
 * Charge l'entrée depuis la base de données.
@@ -1451,14 +1231,12 @@ def get_user(self, user_id):
 
 [Memcached](https://memcached.org/) est généralement utilisé de cette manière.
 
-Les lectures suivantes des données mises en cache sont rapides. Le cache-aside est aussi surnommé lazy loading. Seules
-les données demandées sont mises en cache, évitant de remplir le cache avec des données non lues.
+Les lectures suivantes des données mises en cache sont rapides. Le cache-aside est aussi surnommé lazy loading. Seules les données demandées sont mises en cache, évitant de remplir le cache avec des données non lues.
 
 ##### Inconvénients : cache-aside
 
 * Chaque cache miss entraîne trois opérations, ce qui peut causer un retard notable.
-* Les données peuvent devenir obsolètes si elles sont modifiées dans la base. Ce problème peut être atténué en
-  définissant un délai d'expiration (TTL) ou en utilisant le write-through.
+* Les données peuvent devenir obsolètes si elles sont modifiées dans la base. Ce problème peut être atténué en définissant un délai d'expiration (TTL) ou en utilisant le write-through.
 * En cas de défaillance d'un nœud, un nouveau nœud vide est ajouté, augmentant la latence.
 
 #### Write-through (écriture directe)
@@ -1469,8 +1247,7 @@ les données demandées sont mises en cache, évitant de remplir le cache avec d
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source : Scalability, availability, stability, patterns</a></i>
 </p>
 
-L'application utilise le cache comme principale source de données, en y lisant et écrivant. Le cache est alors
-responsable des opérations de lecture et d'écriture dans la base de données :
+L'application utilise le cache comme principale source de données, en y lisant et écrivant. Le cache est alors responsable des opérations de lecture et d'écriture dans la base de données :
 
 * L'application ajoute/actualise une entrée dans le cache.
 * Le cache écrit de manière synchrone l'entrée dans le stockage de données.
@@ -1490,17 +1267,12 @@ def set_user(user_id, values):
     cache.set(user_id, user)
 ```
 
-Le write-through est une opération globalement plus lente, car elle implique une écriture dans le stockage, mais les
-lectures suivantes des données récemment écrites sont rapides. Les utilisateurs tolèrent généralement mieux une latence
-lors de l'écriture des données que lors de leur lecture. Les données dans le cache ne sont pas obsolètes.
+Le write-through est une opération globalement plus lente, car elle implique une écriture dans le stockage, mais les lectures suivantes des données récemment écrites sont rapides. Les utilisateurs tolèrent généralement mieux une latence lors de l'écriture des données que lors de leur lecture. Les données dans le cache ne sont pas obsolètes.
 
 ##### Inconvénients : écriture directe
 
-* Lorsqu'un nouveau nœud est créé (suite à une défaillance ou une montée en charge), ce dernier ne met pas en cache
-  d'entrées tant que ces dernières n'ont pas été actualisées dans la base de données. Le cache-aside associé au
-  write-through peut limiter ce problème.
-* La plupart des données écrites pourraient ne jamais être lues, mais cela peut être minimisé grâce à l'utilisation d'un
-  TTL.
+* Lorsqu'un nouveau nœud est créé (suite à une défaillance ou une montée en charge), ce dernier ne met pas en cache d'entrées tant que ces dernières n'ont pas été actualisées dans la base de données. Le cache-aside associé au write-through peut limiter ce problème.
+* La plupart des données écrites pourraient ne jamais être lues, mais cela peut être minimisé grâce à l'utilisation d'un TTL.
 
 #### Write-behind (écriture différée)
 
@@ -1517,8 +1289,7 @@ Avec l'écriture différée, l'application procède comme suit :
 
 ##### Inconvénients : écriture différée
 
-* Une perte de données est possible si le cache tombe en panne avant que son contenu ne soit synchronisé avec le
-  stockage de données.
+* Une perte de données est possible si le cache tombe en panne avant que son contenu ne soit synchronisé avec le stockage de données.
 * Il est plus complexe de mettre en œuvre le write-behind que le cache-aside ou le write-through.
 
 #### Refresh-ahead (rafraîchissement anticipé)
@@ -1529,23 +1300,18 @@ Avec l'écriture différée, l'application procède comme suit :
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source : From cache to in-memory data grid</a></i>
 </p>
 
-Vous pouvez configurer le cache pour qu'il rafraîchisse automatiquement toute entrée récemment consultée avant son
-expiration.
+Vous pouvez configurer le cache pour qu'il rafraîchisse automatiquement tout entrée récemment consultée avant son expiration.
 
-Le refresh-ahead peut réduire la latence par rapport au read-through si le cache peut prédire avec précision les
-éléments susceptibles d'être nécessaires à l'avenir.
+Le refresh-ahead peut réduire la latence par rapport au read-through si le cache peut prédire avec précision les éléments susceptibles d'être nécessaires à l'avenir.
 
 ##### Inconvénients : rafraîchissement anticipé
 
-* Une prédiction incorrecte des éléments susceptibles d'être nécessaires peut entraîner des performances inférieures à
-  celles obtenues sans le refresh-ahead.
+* Une prédiction incorrecte des éléments susceptibles d'être nécessaires peut entraîner des performances inférieures à celles obtenues sans le refresh-ahead.
 
 ### Inconvénients : cache
 
-* Besoin de maintenir la cohérence entre les caches et la source de vérité, comme une base de données, par un
-  mécanisme [d'invalidation du cache](https://en.wikipedia.org/wiki/Cache_algorithms).
-* L'invalidation du cache est un problème difficile. Une complexité supplémentaire est associée à la décision de quand
-  mettre à jour le cache.
+* Besoin de maintenir la cohérence entre les caches et la source de vérité, comme une base de données, par un mécanisme [d'invalidation du cache](https://en.wikipedia.org/wiki/Cache_algorithms).
+* L'invalidation du cache est un problème difficile. Une complexité supplémentaire est associée à la décision de quand mettre à jour le cache.
 * Des modifications au niveau de l'application sont nécessaires, comme l'ajout de Redis ou Memcached.
 
 ### Sources et lectures complémentaires
@@ -1566,54 +1332,36 @@ Le refresh-ahead peut réduire la latence par rapport au read-through si le cach
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source : Intro to architecting systems for scale</a></i>
 </p>
 
-Les workflows asynchrones permettent de réduire les temps de réponse pour des opérations coûteuses qui seraient
-autrement effectuées en ligne. Ils peuvent également aider en réalisant à l'avance des travaux chronophages, comme
-l'agrégation périodique de données.
+Les workflows asynchrones permettent de réduire les temps de réponse pour des opérations coûteuses qui seraient autrement effectuées en ligne. Ils peuvent également aider en réalisant à l'avance des travaux chronophages, comme l'agrégation périodique de données.
 
 ### Files de messages
 
-Les files de messages reçoivent, stockent et livrent des messages. Si une opération est trop lente pour être réalisée en
-ligne, vous pouvez utiliser une file de messages avec le workflow suivant :
+Les files de messages reçoivent, stockent et livrent des messages. Si une opération est trop lente pour être réalisée en ligne, vous pouvez utiliser une file de messages avec le workflow suivant :
 
 * Une application publie une tâche dans la file, puis informe l'utilisateur de l'état de la tâche.
 * Un worker récupère la tâche dans la file, la traite, puis signale que la tâche est terminée.
 
-L'utilisateur n'est pas bloqué et la tâche est traitée en arrière-plan. Pendant ce temps, le client peut éventuellement
-effectuer une petite quantité de traitement pour donner l'impression que la tâche est terminée. Par exemple, lors de la
-publication d'un tweet, le tweet pourrait être instantanément affiché dans votre timeline, mais il pourrait prendre un
-certain temps avant d'être réellement diffusé à l'ensemble de vos abonnés.
+L'utilisateur n'est pas bloqué et la tâche est traitée en arrière-plan. Pendant ce temps, le client peut éventuellement effectuer une petite quantité de traitement pour donner l'impression que la tâche est terminée. Par exemple, lors de la publication d'un tweet, le tweet pourrait être instantanément affiché dans votre timeline, mais il pourrait prendre un certain temps avant d'être réellement diffusé à l'ensemble de vos abonnés.
 
 **[Redis](https://redis.io/)** est utile en tant que courtier de messages simple, mais les messages peuvent être perdus.
 
-**[RabbitMQ](https://www.rabbitmq.com/)** est populaire, mais nécessite une adaptation au protocole `AMQP` et la gestion
-de vos propres nœuds.
+**[RabbitMQ](https://www.rabbitmq.com/)** est populaire, mais nécessite une adaptation au protocole `AMQP` et la gestion de vos propres nœuds.
 
-**[Amazon SQS](https://aws.amazon.com/sqs/)** est hébergé, mais peut présenter une latence élevée et comporter un risque
-de livraison de messages en double.
+**[Amazon SQS](https://aws.amazon.com/sqs/)** est hébergé, mais peut présenter une latence élevée et comporter un risque de livraison de messages en double.
 
 ### Files de tâches
 
-Les files de tâches reçoivent des tâches et leurs données associées, les exécutent, puis renvoient leurs résultats.
-Elles peuvent supporter la planification et être utilisées pour exécuter en arrière-plan des tâches nécessitant une
-charge computationnelle importante.
+Les files de tâches reçoivent des tâches et leurs données associées, les exécutent, puis renvoient leurs résultats. Elles peuvent supporter la planification et être utilisées pour exécuter en arrière-plan des tâches nécessitant une charge computationnelle importante.
 
-**[Celery](https://docs.celeryproject.org/en/stable/)** prend en charge la planification et est principalement
-compatible avec Python.
+**[Celery](https://docs.celeryproject.org/en/stable/)** prend en charge la planification et est principalement compatible avec Python.
 
 ### Back pressure (rétropression)
 
-Lorsque les files commencent à croître de manière significative, leur taille peut dépasser la capacité mémoire,
-entraînant des ratés de cache, des lectures disque et des performances encore plus lentes.
-La [rétropression (back pressure)](http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html)
-peut aider en limitant la taille de la file, maintenant ainsi un taux de traitement élevé et des temps de réponse
-optimaux pour les tâches déjà en file. Une fois la file remplie, les clients reçoivent un message "serveur occupé" ou un
-code de statut HTTP 503 pour réessayer plus tard. Les clients peuvent retenter la requête ultérieurement, peut-être avec
-un [backoff exponentiel](https://en.wikipedia.org/wiki/Exponential_backoff).
+Lorsque les files commencent à croître de manière significative, leur taille peut dépasser la capacité mémoire, entraînant des ratés de cache, des lectures disque et des performances encore plus lentes. La [rétropression (back pressure)](http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html) peut aider en limitant la taille de la file, maintenant ainsi un taux de traitement élevé et des temps de réponse optimaux pour les tâches déjà en file. Une fois la file remplie, les clients reçoivent un message "serveur occupé" ou un code de statut HTTP 503 pour réessayer plus tard. Les clients peuvent retenter la requête ultérieurement, peut-être avec un [backoff exponentiel](https://en.wikipedia.org/wiki/Exponential_backoff).
 
 ### Inconvénients : asynchronisme
 
-* Les cas d'utilisation tels que les calculs peu coûteux et les workflows en temps réel pourraient être mieux adaptés
-  aux opérations synchrones, car l'introduction de files peut ajouter des retards et de la complexité.
+* Les cas d'utilisation tels que les calculs peu coûteux et les workflows en temps réel pourraient être mieux adaptés aux opérations synchrones, car l'introduction de files peut ajouter des retards et de la complexité.
 
 ### Sources et lectures complémentaires
 
@@ -1632,14 +1380,9 @@ un [backoff exponentiel](https://en.wikipedia.org/wiki/Exponential_backoff).
 
 ### Hypertext Transfer Protocol (HTTP)
 
-HTTP est une méthode pour encoder et transporter des données entre un client et un serveur. C'est un protocole de type
-requête/réponse : les clients émettent des requêtes et les serveurs renvoient des réponses contenant du contenu pertinent
-et des informations sur l'état d'achèvement de la requête. HTTP est autonome, permettant aux requêtes et réponses de
-transiter par plusieurs routeurs et serveurs intermédiaires effectuant de l'équilibrage de charge, de la mise en cache,
-du chiffrement et de la compression.
+HTTP est une méthode pour encoder et transporter des données entre un client et un serveur. C'est un protocole de type requête/réponse : les clients émettent des requêtes et les serveurs renvoient des réponses contenant du contenu pertinent et des informations sur l'état d'achèvement de la requête. HTTP est autonome, permettant aux requêtes et réponses de transiter par plusieurs routeurs et serveurs intermédiaires effectuant de l'équilibrage de charge, de la mise en cache, du chiffrement et de la compression.
 
-Une requête HTTP de base se compose d'un verbe (méthode) et d'une ressource (point de terminaison). Voici les verbes
-HTTP les plus courants :
+Une requête HTTP de base se compose d'un verbe (méthode) et d'une ressource (point de terminaison). Voici les verbes HTTP les plus courants :
 
 | Verbe  | Description                                                         | Idempotent* | Sûr | Mise en cache                                            |
 |--------|---------------------------------------------------------------------|-------------|-----|----------------------------------------------------------|
@@ -1667,29 +1410,16 @@ HTTP est un protocole de couche application reposant sur des protocoles de nivea
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source : How to make a multiplayer game</a></i>
 </p>
 
-TCP est un protocole orienté connexion utilisé sur un [réseau IP](https://en.wikipedia.org/wiki/Internet_Protocol). La
-connexion est établie et terminée via un [handshake](https://en.wikipedia.org/wiki/Handshaking). Tous les paquets
-envoyés sont garantis d'atteindre leur destination dans l'ordre d'origine et sans corruption grâce à:
+TCP est un protocole orienté connexion utilisé sur un [réseau IP](https://en.wikipedia.org/wiki/Internet_Protocol). La connexion est établie et terminée via un [handshake](https://en.wikipedia.org/wiki/Handshaking). Tous les paquets envoyés sont garantis d'atteindre leur destination dans l'ordre d'origine et sans corruption grâce à :
 
-* des numéros de séquence et
-  des [champs checksum](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Checksum_computation) pour chaque
-  paquet ;
-* des paquets d'[accusé de réception](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)) et des
-  retransmissions automatiques.
+* des numéros de séquence et des [champs checksum](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Checksum_computation) pour chaque paquet ;
+* des paquets d'[accusé de réception](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)) et des retransmissions automatiques.
 
-Si l'expéditeur ne reçoit pas de réponse correcte, il réenvoie les paquets. Après plusieurs expirations, la connexion
-est abandonnée. TCP met également en œuvre un [contrôle de flux](https://en.wikipedia.org/wiki/Flow_control_(data)) et
-un [contrôle de congestion](https://en.wikipedia.org/wiki/Network_congestion#Congestion_control). Ces garanties
-provoquent des délais et entraînent généralement une transmission moins efficace par rapport à UDP.
+Si l'expéditeur ne reçoit pas de réponse correcte, il réenvoie les paquets. Après plusieurs expirations, la connexion est abandonnée. TCP met également en œuvre un [contrôle de flux](https://en.wikipedia.org/wiki/Flow_control_(data)) et un [contrôle de congestion](https://en.wikipedia.org/wiki/Network_congestion#Congestion_control). Ces garanties provoquent des délais et entraînent généralement une transmission moins efficace par rapport à UDP.
 
-Pour garantir un débit élevé, les serveurs web peuvent maintenir un grand nombre de connexions TCP ouvertes, ce qui
-entraîne une utilisation élevée de la mémoire. Cela peut être coûteux lorsqu'il y a un grand nombre de connexions
-ouvertes entre des threads de serveurs web et, par exemple, un serveur [Memcached](https://memcached.org/).
-Le [pooling des connexions](https://en.wikipedia.org/wiki/Connection_pool) peut être utilisé, en plus d'un basculement
-vers UDP lorsque applicable.
+Pour garantir un débit élevé, les serveurs web peuvent maintenir un grand nombre de connexions TCP ouvertes, ce qui entraîne une utilisation élevée de la mémoire. Cela peut être coûteux lorsqu'il y a un grand nombre de connexions ouvertes entre des threads de serveurs web et, par exemple, un serveur [Memcached](https://memcached.org/). Le [pooling des connexions](https://en.wikipedia.org/wiki/Connection_pool) peut être utilisé, en plus d'un basculement vers UDP lorsque applicable.
 
-TCP est utile pour les applications nécessitant une fiabilité élevée, mais qui ne sont pas critiques en termes de temps,
-comme les serveurs web, les bases de données, les emails (SMTP), les transferts de fichiers (FTP) ou SSH.
+TCP est utile pour les applications nécessitant une fiabilité élevée, mais qui ne sont pas critiques en termes de temps, comme les serveurs web, les bases de données, les emails (SMTP), les transferts de fichiers (FTP) ou SSH.
 
 Utilisez TCP au lieu d'UDP lorsque:
 
@@ -1704,16 +1434,11 @@ Utilisez TCP au lieu d'UDP lorsque:
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source : How to make a multiplayer game</a></i>
 </p>
 
-UDP est un protocole sans connexion. Les datagrammes (similaires aux paquets) sont garantis uniquement au niveau du
-datagramme. Les datagrammes peuvent arriver à destination dans le désordre ou ne pas arriver du tout. UDP ne prend pas
-en charge le contrôle de congestion. Sans les garanties apportées par TCP, UDP est généralement plus efficace.
+UDP est un protocole sans connexion. Les datagrammes (similaires aux paquets) sont garantis uniquement au niveau du datagramme. Les datagrammes peuvent arriver à destination dans le désordre ou ne pas arriver du tout. UDP ne prend pas en charge le contrôle de congestion. Sans les garanties apportées par TCP, UDP est généralement plus efficace.
 
-UDP peut effectuer des diffusions (broadcast), envoyant des datagrammes à tous les dispositifs du sous-réseau. Cela est
-utile avec le [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), car le client n'a pas encore
-reçu d'adresse IP, ce qui empêche une transmission en continu via TCP.
+UDP peut effectuer des diffusions (broadcast), envoyant des datagrammes à tous les dispositifs du sous-réseau. Cela est utile avec le [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), car le client n'a pas encore reçu d'adresse IP, ce qui empêche une transmission en continu via TCP.
 
-UDP est moins fiable, mais fonctionne bien dans des cas d'utilisation en temps réel tels que les appels VoIP, la
-visioconférence, le streaming, et les jeux multijoueurs en temps réel.
+UDP est moins fiable, mais fonctionne bien dans des cas d'utilisation en temps réel tels que les appels VoIP, la visioconférence, le streaming, et les jeux multijoueurs en temps réel.
 
 Utilisez UDP au lieu de TCP lorsque:
 
@@ -1738,23 +1463,15 @@ Utilisez UDP au lieu de TCP lorsque:
   <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>Source : Crack the system design interview</a></i>
 </p>
 
-Avec un RPC, un client provoque l'exécution d'une procédure dans un espace d'adressage différent, généralement sur un
-serveur distant. La procédure est codée comme si elle était un appel de procédure locale, en cachant les détails de
-communication avec le serveur au programme client. Les appels distants sont habituellement plus lents et moins fiables que
-les appels locaux, il est donc utile de distinguer les appels RPC des appels locaux. Les frameworks RPC populaires
-incluent [Protobuf](https://developers.google.com/protocol-buffers/), [Thrift](https://thrift.apache.org/)
-et [Avro](https://avro.apache.org/docs/current/).
+Avec un RPC, un client provoque l'exécution d'une procédure dans un espace d'adressage différent, généralement sur un serveur distant. La procédure est codée comme si elle était un appel de procédure locale, en cachant les détails de communication avec le serveur au programme client. Les appels distants sont habituellement plus lents et moins fiables que les appels locaux, il est donc utile de distinguer les appels RPC des appels locaux. Les frameworks RPC populaires incluent [Protobuf](https://developers.google.com/protocol-buffers/), [Thrift](https://thrift.apache.org/) et [Avro](https://avro.apache.org/docs/current/).
 
 Le RPC est un protocole de type requête-réponse :
 
-* **Programme client** : Appelle la procédure du stub client. Les paramètres sont empilés comme un appel de procédure
-  local.
-* **Procédure de stub client** : Sérialise (marshal) l'identifiant de la procédure et les arguments dans un message de
-  demande.
+* **Programme client** : Appelle la procédure du stub client. Les paramètres sont empilés comme un appel de procédure local.
+* **Procédure de stub client** : Sérialise (marshal) l'identifiant de la procédure et les arguments dans un message de demande.
 * **Module de communication client** : L'OS envoie le message du client au serveur.
 * **Module de communication serveur** : L'OS transmet les paquets entrants à la procédure stub serveur.
-* **Procédure de stub serveur** : Désérialise (unmarshal) les résultats, appelle la procédure serveur correspondante à
-  l'identifiant et passe les arguments donnés.
+* **Procédure de stub serveur** : Désérialise (unmarshal) les résultats, appelle la procédure serveur correspondante à l'identifiant et passe les arguments donnés.
 * La réponse du serveur répète les étapes ci-dessus, mais dans l'ordre inverse.
 
 Exemples d'appels RPC:
@@ -1769,8 +1486,7 @@ POST /anotheroperation
 }
 ```
 
-RPC met l'accent sur l'exposition des comportements. Les RPC sont souvent utilisés pour des raisons de performance dans
-les communications internes, car vous pouvez concevoir des appels natifs pour mieux répondre à vos cas d'utilisation.
+RPC met l'accent sur l'exposition des comportements. Les RPC sont souvent utilisés pour des raisons de performance dans les communications internes, car vous pouvez concevoir des appels natifs pour mieux répondre à vos cas d'utilisation.
 
 Choisissez une bibliothèque native (aussi appelée SDK) lorsque :
 
@@ -1786,27 +1502,18 @@ Les API HTTP suivant **REST** sont souvent utilisées pour des API publiques.
 * Les clients RPC deviennent fortement couplés à l'implémentation du service.
 * Une nouvelle API doit être définie pour chaque nouvelle opération ou cas d'utilisation.
 * Il peut être difficile de déboguer un RPC.
-* Vous risquez de ne pas pouvoir exploiter facilement les technologies existantes. Par exemple, il peut être nécessaire
-  de faire un effort supplémentaire pour s'assurer
-  que [les appels RPC sont correctement mis en cache](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
-  sur des serveurs de mise en cache tels que [Squid](http://www.squid-cache.org/).
+* Vous risquez de ne pas pouvoir exploiter facilement les technologies existantes. Par exemple, il peut être nécessaire de faire un effort supplémentaire pour s'assurer que [les appels RPC sont correctement mis en cache](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) sur des serveurs de mise en cache tels que [Squid](http://www.squid-cache.org/).
 
 ### Representational State Transfer (REST)
 
-REST est un style d'architecture qui impose un modèle client/serveur où le client agit sur un ensemble de ressources
-gérées par le serveur. Le serveur fournit une représentation des ressources et des actions qui peuvent soit manipuler,
-soit obtenir une nouvelle représentation des ressources. Toute communication doit être sans état (stateless) et mise en
-cache.
+REST est un style d'architecture qui impose un modèle client/serveur où le client agit sur un ensemble de ressources gérées par le serveur. Le serveur fournit une représentation des ressources et des actions qui peuvent soit manipuler, soit obtenir une nouvelle représentation des ressources. Toute communication doit être sans état (stateless) et mise en cache.
 
 Il existe quatre qualités d'une interface RESTful :
 
 * **Identifier les ressources (URI dans HTTP)** - Utilisez le même URI quelle que soit l'opération.
-* **Changer avec les représentations (Verbes dans HTTP)** - Utilisez des verbes, des en-têtes (headers) et le corps de
-  la requête.
-* **Messagerie d'erreurs auto-descriptive (codes de statut dans HTTP)** - Utilisez des codes de statut, inutile de
-  réinventer la roue.
-* **[HATEOAS](http://restcookbook.com/Basics/hateoas/) (interface HTML pour HTTP)** - Votre service web doit être
-  entièrement accessible via un navigateur.
+* **Changer avec les représentations (Verbes dans HTTP)** - Utilisez des verbes, des en-têtes (headers) et le corps de la requête.
+* **Messagerie d'erreurs auto-descriptive (codes de statut dans HTTP)** - Utilisez des codes de statut, inutile de réinventer la roue.
+* **[HATEOAS](http://restcookbook.com/Basics/hateoas/) (interface HTML pour HTTP)** - Votre service web doit être entièrement accessible via un navigateur.
 
 Exemples d'appels REST:
 
@@ -1817,29 +1524,14 @@ PUT /someresources/anId
 {"anotherdata": "another value"}
 ```
 
-REST met l'accent sur l'exposition des données. Il minimise le couplage entre client/serveur et est souvent utilisé pour
-les API HTTP publiques. REST utilise une méthode plus générique et uniforme pour exposer des ressources via des URI,
-des [représentations avec des en-têtes](https://github.com/for-GET/know-your-http-well/blob/master/headers.md), et des
-actions via des verbes tels que GET, POST, PUT, DELETE et PATCH. Étant sans état, REST est idéal pour le scaling
-horizontal et le partitionnement.
+REST met l'accent sur l'exposition des données. Il minimise le couplage entre client/serveur et est souvent utilisé pour les API HTTP publiques. REST utilise une méthode plus générique et uniforme pour exposer des ressources via des URI, des [représentations avec des en-têtes](https://github.com/for-GET/know-your-http-well/blob/master/headers.md), et des actions via des verbes tels que GET, POST, PUT, DELETE et PATCH. Étant sans état, REST est idéal pour le scaling horizontal et le partitionnement.
 
 #### Inconvénients: REST
 
-* REST étant centré sur l'exposition des données, il peut ne pas être adapté si les ressources ne sont pas naturellement
-  organisées ou accessibles dans une hiérarchie simple. Par exemple, retourner tous les enregistrements mis à jour de la
-  dernière heure correspondant à un ensemble d'événements spécifique peut ne pas être facilement exprimé comme un
-  chemin. Cela peut nécessiter une combinaison de chemins URI, paramètres de requête, et éventuellement un corps de
-  requête.
-* REST s'appuie généralement sur quelques verbes (GET, POST, PUT, DELETE et PATCH), ce qui peut parfois ne pas
-  correspondre à votre usage. Par exemple, déplacer des documents expirés dans un dossier d'archivage peut ne pas
-  s'intégrer nettement dans ces verbes.
-* La récupération de ressources complexes avec des hiérarchies imbriquées nécessite plusieurs allers-retours entre le
-  client et le serveur pour rendre des vues uniques. Par exemple, récupérer le contenu d'un billet de blog et les
-  commentaires sur cette publication. Cela peut être problématique pour les applications mobiles fonctionnant dans des
-  conditions de réseau variables.
-* Au fil du temps, de nouveaux champs peuvent être ajoutés à une réponse API, et les anciens clients recevront tous les
-  nouveaux champs de données, même ceux dont ils n'ont pas besoin. Cela alourdit la taille de la charge utile et
-  entraîne de plus grandes latences.
+* REST étant centré sur l'exposition des données, il peut ne pas être adapté si les ressources ne sont pas naturellement organisées ou accessibles dans une hiérarchie simple. Par exemple, retourner tous les enregistrements mis à jour de la dernière heure correspondant à un ensemble d'événements spécifique peut ne pas être facilement exprimé comme un chemin. Cela peut nécessiter une combinaison de chemins URI, paramètres de requête, et éventuellement un corps de requête.
+* REST s'appuie généralement sur quelques verbes (GET, POST, PUT, DELETE et PATCH), ce qui peut parfois ne pas correspondre à votre usage. Par exemple, déplacer des documents expirés dans un dossier d'archivage peut ne pas s'intégrer nettement dans ces verbes.
+* La récupération de ressources complexes avec des hiérarchies imbriquées nécessite plusieurs allers-retours entre le client et le serveur pour rendre des vues uniques. Par exemple, récupérer le contenu d'un billet de blog et les commentaires sur cette publication. Cela peut être problématique pour les applications mobiles fonctionnant dans des conditions de réseau variables.
+* Au fil du temps, de nouveaux champs peuvent être ajoutés à une réponse API, et les anciens clients recevront tous les nouveaux champs de données, même ceux dont ils n'ont pas besoin. Cela alourdit la taille de la charge utile et entraîne de plus grandes latences.
 
 ### Comparaison des appels RPC et REST
 
