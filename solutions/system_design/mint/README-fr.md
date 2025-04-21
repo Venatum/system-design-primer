@@ -99,13 +99,13 @@ Nous pourrions stocker les informations sur les 10 millions d'utilisateurs dans 
 La table `accounts` pourrait avoir la structure suivante :
 
 ```
-id int NOT NULL AUTO_INCREMENT
-created_at datetime NOT NULL
-last_update datetime NOT NULL
-account_url varchar(255) NOT NULL
-account_login varchar(32) NOT NULL
-account_password_hash char(64) NOT NULL
-user_id int NOT NULL
+id                      int             NOT NULL AUTO_INCREMENT
+created_at              datetime        NOT NULL
+last_update             datetime        NOT NULL
+account_url             varchar(255)    NOT NULL
+account_login           varchar(32)     NOT NULL
+account_password_hash   char(64)        NOT NULL
+user_id                 int             NOT NULL
 PRIMARY KEY(id)
 FOREIGN KEY(user_id) REFERENCES users(id)
 ```
@@ -151,11 +151,11 @@ Flux de données :
 La table `transactions` pourrait avoir la structure suivante :
 
 ```
-id int NOT NULL AUTO_INCREMENT
-created_at datetime NOT NULL
-seller varchar(32) NOT NULL
-amount decimal NOT NULL
-user_id int NOT NULL
+id          int         NOT NULL AUTO_INCREMENT
+created_at  datetime    NOT NULL
+seller      varchar(32) NOT NULL
+amount      decimal     NOT NULL
+user_id     int         NOT NULL
 PRIMARY KEY(id)
 FOREIGN KEY(user_id) REFERENCES users(id)
 ```
@@ -165,11 +165,11 @@ Nous créerons un [index](https://github.com/donnemartin/system-design-primer#us
 La table `monthly_spending` pourrait avoir la structure suivante :
 
 ```
-id int NOT NULL AUTO_INCREMENT
-month_year date NOT NULL
-category varchar(32)
-amount decimal NOT NULL
-user_id int NOT NULL
+id          int         NOT NULL AUTO_INCREMENT
+month_year  date        NOT NULL
+category    varchar(32)
+amount      decimal     NOT NULL
+user_id     int         NOT NULL
 PRIMARY KEY(id)
 FOREIGN KEY(user_id) REFERENCES users(id)
 ```

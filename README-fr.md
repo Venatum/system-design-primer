@@ -1502,7 +1502,7 @@ Les API HTTP suivant **REST** sont souvent utilisées pour des API publiques.
 * Les clients RPC deviennent fortement couplés à l'implémentation du service.
 * Une nouvelle API doit être définie pour chaque nouvelle opération ou cas d'utilisation.
 * Il peut être difficile de déboguer un RPC.
-* Vous risquez de ne pas pouvoir exploiter facilement les technologies existantes. Par exemple, il peut être nécessaire de faire un effort supplémentaire pour s'assurer que [les appels RPC sont correctement mis en cache](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) sur des serveurs de mise en cache tels que [Squid](http://www.squid-cache.org/).
+* Vous risquez de ne pas pouvoir exploiter facilement les technologies existantes. Par exemple, il peut être nécessaire de faire un effort supplémentaire pour s'assurer que [les appels RPC soient correctement mis en cache](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) sur des serveurs de mise en cache tels que [Squid](http://www.squid-cache.org/).
 
 ### Representational State Transfer (REST)
 
