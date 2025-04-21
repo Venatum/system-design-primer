@@ -331,7 +331,13 @@ class SpendingByCategory(MRJob):
 
 **Important : Ne passez pas directement de la conception initiale à la conception finale !**
 
-Indiquez que vous 1) **Benchmarkeriez/Testeriez en charge**, 2) **Profileriez** pour identifier les goulots d'étranglement 3) traiteriez les goulots d'étranglement tout en évaluant les alternatives et les compromis, et 4) répéteriez. Voir [Concevoir un système qui s'adapte à des millions d'utilisateurs sur AWS](../scaling_aws/README.md) comme exemple sur la façon de mettre à l'échelle de manière itérative la conception initiale.
+Indiquez que vous :
+1. **Benchmarkeriez/Testeriez en charge**
+2. **Profileriez** pour identifier les goulots d'étranglement
+3. Traiteriez les goulots d'étranglement tout en évaluant les alternatives et les compromis
+4. répéteriez ces actions
+
+Voir [Concevoir un système qui s'adapte à des millions d'utilisateurs sur AWS](../scaling_aws/README.md) comme exemple sur la façon de mettre à l'échelle de manière itérative la conception initiale.
 
 Il est important de discuter des goulots d'étranglement que vous pourriez rencontrer avec la conception initiale et comment vous pourriez les traiter. Par exemple, quels problèmes sont résolus en ajoutant un **Équilibreur de charge** avec plusieurs **Serveurs Web** ? **CDN** ? **Répliques Maître-Esclave** ? Quelles sont les alternatives et les **Compromis** pour chacun ?
 

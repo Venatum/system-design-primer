@@ -109,10 +109,10 @@ Une alternative à une base de données relationnelle agissant comme une grande 
 La table `pastes` pourrait avoir la structure suivante :
 
 ```
-shortlink char(7) NOT NULL
-expiration_length_in_minutes int NOT NULL
-created_at datetime NOT NULL
-paste_path varchar(255) NOT NULL
+shortlink                     char(7)       NOT NULL
+expiration_length_in_minutes  int           NOT NULL
+created_at                    datetime      NOT NULL
+paste_path                    varchar(255)  NOT NULL
 PRIMARY KEY(shortlink)
 ```
 
@@ -239,7 +239,13 @@ Pour supprimer les collages expirés, nous pourrions simplement scanner la **Bas
 
 **Important : Ne passez pas directement de la conception initiale à la conception finale !**
 
-Indiquez que vous feriez cela de manière itérative : 1) **Benchmarkeriez/Testeriez en charge**, 2) **Profileriez** pour identifier les goulots d'étranglement 3) traiteriez les goulots d'étranglement tout en évaluant les alternatives et les compromis, et 4) répéteriez. Voir [Concevoir un système qui s'adapte à des millions d'utilisateurs sur AWS](../scaling_aws/README.md) comme exemple sur la façon de mettre à l'échelle de manière itérative la conception initiale.
+Indiquez que vous feriez cela de manière itérative :
+1. **Benchmarkeriez/Testeriez en charge**
+2. **Profileriez** pour identifier les goulots d'étranglement
+3. Traiteriez les goulots d'étranglement tout en évaluant les alternatives et les compromis
+4. Répéteriez ces actions
+
+Voir [Concevoir un système qui s'adapte à des millions d'utilisateurs sur AWS](../scaling_aws/README.md) comme exemple sur la façon de mettre à l'échelle de manière itérative la conception initiale.
 
 Il est important de discuter des goulots d'étranglement que vous pourriez rencontrer avec la conception initiale et comment vous pourriez les traiter. Par exemple, quels problèmes sont résolus en ajoutant un **Équilibreur de charge** avec plusieurs **Serveurs Web** ? **CDN** ? **Répliques Maître-Esclave** ? Quelles sont les alternatives et les **Compromis** pour chacun ?
 
@@ -262,7 +268,7 @@ Nous introduirons certains composants pour compléter la conception et traiter l
 
 La **Base de données d'Analyse** pourrait utiliser une solution d'entrepôt de données comme Amazon Redshift ou Google BigQuery.
 
-Un **Stockage d'Objets** comme Amazon S3 peut facilement gérer la contrainte de 12,7 Go de nouveau contenu par mois.
+Un **Stockage d'Objets** comme Amazon S3 peut facilement gérer la contrainte de 12,7 Go de nouveau contenue par mois.
 
 Pour gérer les 40 requêtes de lecture *moyennes* par seconde (plus élevées en période de pointe), le trafic pour le contenu populaire devrait être géré par le **Cache Mémoire** plutôt que par la base de données. Le **Cache Mémoire** est également utile pour gérer le trafic inégalement distribué et les pics de trafic. Les **Répliques de Lecture SQL** devraient pouvoir gérer les échecs de cache, tant que les répliques ne sont pas surchargées par la réplication des écritures.
 
