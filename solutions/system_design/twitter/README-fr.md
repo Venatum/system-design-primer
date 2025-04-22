@@ -122,14 +122,14 @@ Nous pourrions stocker les médias tels que les photos ou les vidéos sur un **S
 La table `tweets` pourrait avoir la structure suivante :
 
 ```
-tweet_id int NOT NULL
-user_id int NOT NULL
-text varchar(140) NOT NULL
-media_id int
-timestamp datetime NOT NULL
+tweet_id    int             NOT NULL
+user_id     int             NOT NULL
+text        varchar(140)    NOT NULL
+media_id    int
+timestamp   datetime        NOT NULL
 PRIMARY KEY(tweet_id)
-FOREIGN KEY(user_id) REFERENCES users(user_id)
-FOREIGN KEY(media_id) REFERENCES media(media_id)
+FOREIGN KEY(user_id)    REFERENCES users(user_id)
+FOREIGN KEY(media_id)   REFERENCES media(media_id)
 ```
 
 Nous devrions créer un [index](https://github.com/donnemartin/system-design-primer#use-good-indices) sur `tweet_id` et `user_id` pour accélérer les recherches (temps logarithmique au lieu de parcourir toute la table) et pour garder les données en mémoire. La lecture séquentielle de 1 Mo depuis la mémoire prend environ 250 microsecondes, tandis que la lecture depuis un SSD prend 4 fois plus de temps et depuis un disque dur 80 fois plus longtemps.<sup><a href=https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know>1</a></sup>
@@ -137,21 +137,21 @@ Nous devrions créer un [index](https://github.com/donnemartin/system-design-pri
 La table `users` pourrait avoir la structure suivante :
 
 ```
-user_id int NOT NULL
-name varchar(32) NOT NULL
-email varchar(32) NOT NULL
-last_login datetime NOT NULL
+user_id     int         NOT NULL
+name        varchar(32) NOT NULL
+email       varchar(32) NOT NULL
+last_login  datetime    NOT NULL
 PRIMARY KEY(user_id)
 ```
 
 La table `followers` pourrait avoir la structure suivante :
 
 ```
-user_id int NOT NULL
-follower_id int NOT NULL
+user_id         int     NOT NULL
+follower_id     int     NOT NULL
 PRIMARY KEY (user_id, follower_id)
-FOREIGN KEY(user_id) REFERENCES users(user_id)
-FOREIGN KEY(follower_id) REFERENCES users(user_id)
+FOREIGN KEY(user_id)        REFERENCES users(user_id)
+FOREIGN KEY(follower_id)    REFERENCES users(user_id)
 ```
 
 Nous utiliserons une [**API REST**](https://github.com/donnemartin/system-design-primer#representational-state-transfer-rest) publique :

@@ -232,7 +232,7 @@ $ curl https://search.com/api/v1/search?query=hello+world
 
 Réponse :
 
-```
+```json
 {
     "title": "titre de foo",
     "snippet": "extrait de foo",
