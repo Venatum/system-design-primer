@@ -27,7 +27,7 @@ Ce dépôt est une **collection organisée** de ressources pour vous aider à ap
 
 Ceci est un projet open source mis à jour en continu.
 
-Les [contributions](#contributing) sont les bienvenues !
+Les [contributions](#contribuer) sont les bienvenues !
 
 ### Préparez-vous aux entretiens de conception de systèmes
 
@@ -37,11 +37,11 @@ En plus des entretiens de codage, la conception de systèmes est une **composant
 
 Sujets supplémentaires pour vous préparer aux entretiens :
 
-* [Guide d'étude](#study-guide)
-* [Comment aborder une question d'entretien de conception de système](#how-to-approach-a-system-design-interview-question)
-* [Questions d'entretien en conception système, **avec solutions**](#system-design-interview-questions-with-solutions)
-* [Questions d'entretien en conception orientée objet, **avec solutions**](#object-oriented-design-interview-questions-with-solutions)
-* [Questions supplémentaires d'entretien en conception de systèmes](#additional-system-design-interview-questions)
+* [Guide d'étude](#guide-detude)
+* [Comment aborder une question d'entretien de conception de système](#comment-aborder-une-question-dentretien-en-conception-de-systeme)
+* [Questions d'entretien en conception système, **avec solutions**](#questions-dentretien-en-conception-de-systeme-avec-solutions)
+* [Questions d'entretien en conception orientée objet, **avec solutions**](#questions-dentretien-en-conception-orientee-objet-avec-solutions)
+* [Questions supplémentaires d'entretien en conception de systèmes](#questions-supplementaires-pour-les-entretiens-sur-la-conception-de-systemes)
 
 ## Cartes mémoire Anki
 
@@ -83,7 +83,7 @@ N'hésitez pas à soumettre des demandes de fusion pour :
 * Ajouter de nouvelles sections
 * [Traduire](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Le contenu qui nécessite d'être peaufiné est placé [sous développement](#under-development).
+Le contenu qui nécessite d'être peaufiné est placé [sous développement](#en-cours-de-developpement).
 
 Consultez les [directives de contribution](CONTRIBUTING.md).
 
@@ -98,87 +98,87 @@ Consultez les [directives de contribution](CONTRIBUTING.md).
   <br/>
 </p>
 
-* [Sujets de conception système : commencez ici](#system-design-topics-start-here)
-    * [Étape 1 : Revoir la vidéo sur l'évolutivité](#step-1-review-the-scalability-video-lecture)
-    * [Étape 2 : Revoir l'article sur l'évolutivité](#step-2-review-the-scalability-article)
-    * [Étapes suivantes](#next-steps)
-* [Performance vs Évolutivité](#performance-vs-scalability)
-* [Latence vs Débit](#latency-vs-throughput)
-* [Disponibilité vs Cohérence](#availability-vs-consistency)
-    * [Théorème CAP](#cap-theorem)
-        * [CP - Cohérence et Tolérance aux partitions](#cp---consistency-and-partition-tolerance)
-        * [AP - Disponibilité et Tolérance aux partitions](#ap---availability-and-partition-tolerance)
-* [Modèles de cohérence](#consistency-patterns)
-    * [Cohérence faible](#weak-consistency)
-    * [Cohérence éventuelle](#eventual-consistency)
-    * [Cohérence forte](#strong-consistency)
-* [Modèles de disponibilité](#availability-patterns)
-    * [Basculement (Fail-over)](#fail-over)
+* [Sujets de conception système : commencez ici](#sujets-de-conception-de-systeme-commencez-ici)
+    * [Étape 1 : Revoir la vidéo sur l'évolutivité](#etape-1-regardez-la-video-sur-levolutivite)
+    * [Étape 2 : Revoir l'article sur l'évolutivité](#etape-2-lisez-larticle-sur-levolutivite)
+    * [Étapes suivantes](#prochaines-etapes)
+* [Performance vs Évolutivité](#performance-vs-scalabilite)
+* [Latence vs Débit](#latence-vs-debit)
+* [Disponibilité vs Cohérence](#disponibilite-vs-coherence)
+    * [Théorème CAP](#theoreme-cap)
+        * [CP - Cohérence et Tolérance aux partitions](#cp---coherence-et-tolerance-aux-partitions)
+        * [AP - Disponibilité et Tolérance aux partitions](#ap---disponibilite-et-tolerance-aux-partitions)
+* [Modèles de cohérence](#modeles-de-coherence)
+    * [Cohérence faible](#coherence-faible)
+    * [Cohérence éventuelle](#coherence-eventuelle)
+    * [Cohérence forte](#coherence-forte)
+* [Modèles de disponibilité](#modeles-de-disponibilite)
+    * [Basculement (Fail-over)](#failover-basculement)
     * [Réplication](#replication)
-    * [Disponibilité en chiffres](#availability-in-numbers)
-* [Système de noms de domaine (DNS)](#domain-name-system)
-* [Réseau de diffusion de contenu (CDN)](#content-delivery-network)
-    * [CDNs en mode push](#push-cdns)
-    * [CDNs en mode pull](#pull-cdns)
-* [Équilibrage de charge (Load balancer)](#load-balancer)
-    * [Actif-passif](#active-passive)
-    * [Actif-actif](#active-active)
-    * [Équilibrage de charge de niveau 4](#layer-4-load-balancing)
-    * [Équilibrage de charge de niveau 7](#layer-7-load-balancing)
-    * [Mise à l'échelle horizontale](#horizontal-scaling)
-* [Proxy inverse (serveur web)](#reverse-proxy-web-server)
-    * [Équilibrage de charge vs Proxy inverse](#load-balancer-vs-reverse-proxy)
-* [Couches applicatives](#application-layer)
+    * [Disponibilité en chiffres](#disponibilite-en-chiffres)
+* [Système de noms de domaine (DNS)](#systeme-de-noms-de-domaine-dns)
+* [Réseau de diffusion de contenu (CDN)](#reseau-de-diffusion-de-contenu-cdn)
+    * [CDNs en mode push](#push-cdn)
+    * [CDNs en mode pull](#pull-cdn)
+* [Équilibrage de charge (Load balancer)](#repartiteur-de-charge-load-balancer)
+    * [Actif-passif](#actif-passif)
+    * [Actif-actif](#actif-actif)
+    * [Équilibrage de charge de niveau 4](#repartition-au-niveau-4)
+    * [Équilibrage de charge de niveau 7](#repartition-au-niveau-7)
+    * [Mise à l'échelle horizontale](#mise-a-lechelle-horizontale)
+* [Proxy inverse (serveur web)](#proxy-inverse-serveur-web)
+    * [Équilibrage de charge vs Proxy inverse](#repartiteur-de-charge-vs-proxy-inverse)
+* [Couches applicatives](#couche-dapplication)
     * [Microservices](#microservices)
-    * [Découverte de services](#service-discovery)
-* [Bases de données](#database)
-    * [Système de gestion de base de données relationnelle (SGBDR)](#relational-database-management-system-rdbms)
-        * [Réplication maître-esclave](#master-slave-replication)
-        * [Réplication maître-maître](#master-master-replication)
+    * [Découverte de services](#decouverte-de-services)
+* [Bases de données](#base-de-donnees)
+    * [Système de gestion de base de données relationnelle (SGBDR)](#systeme-de-gestion-de-bases-de-donnees-relationnelles-sgbdr)
+        * [Réplication maître-esclave](#replication-maitre-esclave)
+        * [Réplication maître-maître](#replication-maitre-maitre)
         * [Fédération](#federation)
-        * [Partage (Sharding)](#sharding)
-        * [Dénormalisation](#denormalization)
-        * [Optimisation SQL](#sql-tuning)
+        * [Partage (Sharding)](#sharding-fragmentation)
+        * [Dénormalisation](#denormalisation)
+        * [Optimisation SQL](#optimisation-sql)
     * [NoSQL](#nosql)
-        * [Stockage clé-valeur](#key-value-store)
-        * [Base de documents](#document-store)
-        * [Stockage en colonnes larges](#wide-column-store)
-        * [Base de données graphe](#graph-database)
-    * [SQL ou NoSQL](#sql-or-nosql)
+        * [Stockage clé-valeur](#magasin-cle-valeur)
+        * [Base de documents](#magasin-de-documents)
+        * [Stockage en colonnes larges](#magasin-par-colonnes-larges)
+        * [Base de données graphe](#base-orientee-graphe)
+    * [SQL ou NoSQL](#sql-ou-nosql)
 * [Cache](#cache)
-    * [Cache client](#client-caching)
-    * [Cache CDN](#cdn-caching)
-    * [Cache serveur web](#web-server-caching)
-    * [Cache base de données](#database-caching)
-    * [Cache applicatif](#application-caching)
-    * [Mise en cache au niveau des requêtes de base de données](#caching-at-the-database-query-level)
-    * [Mise en cache au niveau des objets](#caching-at-the-object-level)
-    * [Quand mettre à jour le cache](#when-to-update-the-cache)
+    * [Cache client](#cache-cote-client)
+    * [Cache CDN](#cache-cdn)
+    * [Cache serveur web](#cache-au-niveau-du-serveur-web)
+    * [Cache base de données](#cache-de-base-de-donnees)
+    * [Cache applicatif](#cache-dapplication)
+    * [Mise en cache au niveau des requêtes de base de données](#mise-en-cache-au-niveau-des-requetes-de-base-de-donnees)
+    * [Mise en cache au niveau des objets](#mise-en-cache-au-niveau-objet)
+    * [Quand mettre à jour le cache](#quand-mettre-a-jour-le-cache)
         * [Cache-aside](#cache-aside)
-        * [Write-through](#write-through)
-        * [Write-behind (ou Write-back)](#write-behind-write-back)
-        * [Refresh-ahead](#refresh-ahead)
-* [Asynchronisme](#asynchronism)
-    * [Files de messages](#message-queues)
-    * [Files de tâches](#task-queues)
-    * [Contre-pression (Back pressure)](#back-pressure)
+        * [Write-through](#write-through-ecriture-directe)
+        * [Write-behind (ou Write-back)](#write-behind-ecriture-differee)
+        * [Refresh-ahead](#refresh-ahead-rafraichissement-anticipe)
+* [Asynchronisme](#asynchronisme)
+    * [Files de messages](#files-de-messages)
+    * [Files de tâches](#files-de-taches)
+    * [Contre-pression (Back pressure)](#back-pressure-retropression)
 * [Communication](#communication)
     * [Protocole de contrôle de transmission (TCP)](#transmission-control-protocol-tcp)
     * [Protocole de datagramme utilisateur (UDP)](#user-datagram-protocol-udp)
-    * [Appel de procédure distante (RPC)](#remote-procedure-call-rpc)
+    * [Appel de procédure distante (RPC)](#appel-de-procedure-distante-rpc)
     * [Représentation par transfert d'état (REST)](#representational-state-transfer-rest)
-* [Sécurité](#security)
-* [Annexes](#appendix)
-    * [Tableau des puissances de deux](#powers-of-two-table)
-    * [Chiffres de latence que chaque programmeur devrait connaître](#latency-numbers-every-programmer-should-know)
-    * [Questions supplémentaires d'entretien en conception système](#additional-system-design-interview-questions)
-    * [Architectures du monde réel](#real-world-architectures)
-    * [Architectures d'entreprises](#company-architectures)
-    * [Blogs d'ingénierie d'entreprises](#company-engineering-blogs)
-* [En développement](#under-development)
+* [Sécurité](#securite)
+* [Annexes](#annexe)
+    * [Tableau des puissances de deux](#tableau-des-puissances-de-deux)
+    * [Chiffres de latence que chaque programmeur devrait connaître](#chiffres-de-latence-que-tout-programmeur-devrait-connaitre)
+    * [Questions supplémentaires d'entretien en conception système](#questions-supplementaires-pour-les-entretiens-sur-la-conception-de-systemes)
+    * [Architectures du monde réel](#architectures-reelles)
+    * [Architectures d'entreprises](#architectures-des-entreprises)
+    * [Blogs d'ingénierie d'entreprises](#blogs-dingenierie-des-entreprises)
+* [En développement](#en-cours-de-developpement)
 * [Crédits](#credits)
-* [Informations de contact](#contact-info)
-* [Licence](#license)
+* [Informations de contact](#informations-de-contact)
+* [Licence](#licence)
 
 ## Guide d'étude
 
@@ -205,15 +205,15 @@ Commencez par une approche large, puis approfondissez certains sujets. Il est ut
 * **Calendrier moyen** - Ciblez **l'étendue** et **une certaine profondeur** avec les sujets de conception système. Pratiquez en résolvant **de nombreuses** questions d'entretien.
 * **Calendrier long** - Ciblez **l'étendue** et **plus de profondeur** avec les sujets de conception système. Pratiquez en résolvant **la plupart** des questions d'entretien.
 
-|                                                                                                                                                           | Court terme | Moyen terme | Long terme |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|------------|
-| Lire les [Sujets de conception système](#index-of-system-design-topics) pour mieux comprendre le fonctionnement global des systèmes                       | :+1:        | :+1:        | :+1:       |
-| Lire quelques articles dans les [blogs d'ingénierie des entreprises](#company-engineering-blogs) des entreprises avec lesquelles vous passez un entretien | :+1:        | :+1:        | :+1:       |
-| Lire quelques [Architectures du monde réel](#real-world-architectures)                                                                                    | :+1:        | :+1:        | :+1:       |
-| Revoir [Comment aborder une question d'entretien en conception de systèmes](#how-to-approach-a-system-design-interview-question)                          | :+1:        | :+1:        | :+1:       |
-| Travailler sur les [Questions d'entretien en conception de systèmes avec solutions](#system-design-interview-questions-with-solutions)                    | Un peu      | Beaucoup    | La plupart |
-| Travailler sur les [Questions d'entretien en conception orientée objet avec solutions](#object-oriented-design-interview-questions-with-solutions)        | Un peu      | Beaucoup    | La plupart |
-| Revoir les [Questions supplémentaires en conception de systèmes](#additional-system-design-interview-questions)                                           | Un peu      | Beaucoup    | La plupart |
+|                                                                                                                                                                   | Court terme | Moyen terme | Long terme |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|------------|
+| Lire les [Sujets de conception système](#index-des-sujets-de-conception-de-systemes) pour mieux comprendre le fonctionnement global des systèmes                  | :+1:        | :+1:        | :+1:       |
+| Lire quelques articles dans les [blogs d'ingénierie des entreprises](#blogs-dingenierie-des-entreprises) des entreprises avec lesquelles vous passez un entretien | :+1:        | :+1:        | :+1:       |
+| Lire quelques [Architectures du monde réel](#architectures-reelles)                                                                                               | :+1:        | :+1:        | :+1:       |
+| Revoir [Comment aborder une question d'entretien en conception de systèmes](#comment-aborder-une-question-dentretien-en-conception-de-systeme)                    | :+1:        | :+1:        | :+1:       |
+| Travailler sur les [Questions d'entretien en conception de systèmes avec solutions](#questions-dentretien-en-conception-de-systeme-avec-solutions)                | Un peu      | Beaucoup    | La plupart |
+| Travailler sur les [Questions d'entretien en conception orientée objet avec solutions](#questions-dentretien-en-conception-orientee-objet-avec-solutions)         | Un peu      | Beaucoup    | La plupart |
+| Revoir les [Questions supplémentaires en conception de systèmes](#questions-supplementaires-pour-les-entretiens-sur-la-conception-de-systemes)                    | Un peu      | Beaucoup    | La plupart |
 
 ## Comment aborder une question d'entretien en conception de système
 
@@ -221,7 +221,7 @@ Commencez par une approche large, puis approfondissez certains sujets. Il est ut
 
 L'entretien de conception de système est une **conversation ouverte**. Vous êtes censé la diriger.
 
-Vous pouvez utiliser les étapes suivantes pour guider la discussion. Pour maîtriser ce processus, entraînez-vous avec des exemples dans la section [Questions d'entretien en conception de systèmes avec solutions](#system-design-interview-questions-with-solutions).
+Vous pouvez utiliser les étapes suivantes pour guider la discussion. Pour maîtriser ce processus, entraînez-vous avec des exemples dans la section [Questions d'entretien en conception de systèmes avec solutions](#questions-dentretien-en-conception-de-systeme-avec-solutions).
 
 ### Étape 1 : Enoncer les cas d'utilisation, contraintes et hypothèses
 
@@ -267,15 +267,15 @@ Identifiez et résolvez les goulets d'étranglement en fonction des contraintes.
 * Partitionnement de base de données
 
 Discutez des solutions potentielles et des compromis. Tout est une affaire de compromis.
-Abordez les goulets d'étranglement en utilisant les [principes de conception de systèmes évolutifs](#index-of-system-design-topics).
+Abordez les goulets d'étranglement en utilisant les [principes de conception de systèmes évolutifs](#index-des-sujets-de-conception-de-systemes).
 
 ### Calculs approximatifs
 
-Il se peut qu'on vous demande de faire des estimations manuellement. Reportez-vous à [l'annexe](#appendix) pour les ressources suivantes :
+Il se peut qu'on vous demande de faire des estimations manuellement. Reportez-vous à [l'annexe](#annexe) pour les ressources suivantes :
 
 * [Utilisez les calculs approximatifs](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
-* [Tableau des puissances de deux](#powers-of-two-table)
-* [Chiffres de latence que chaque programmeur devrait connaître](#latency-numbers-every-programmer-should-know)
+* [Tableau des puissances de deux](#tableau-des-puissances-de-deux)
+* [Chiffres de latence que chaque programmeur devrait connaître](#chiffres-de-latence-que-tout-programmeur-devrait-connaitre)
 
 ### Sources et lectures complémentaires
 
@@ -302,7 +302,7 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 | Concevez un magasin clé-valeur pour un moteur de recherche                                          | [Solution](solutions/system_design/query_cache/README-fr.md)  |
 | Concevez la fonctionnalité de classement par catégorie des ventes d'Amazon                          | [Solution](solutions/system_design/sales_rank/README-fr.md)   |
 | Concevez un système pouvant évoluer pour atteindre des millions d'utilisateurs sur AWS              | [Solution](solutions/system_design/scaling_aws/README-fr.md)  |
-| Ajouter une question de conception système                                                          | [Contribuer](#contributing)                                   |
+| Ajouter une question de conception système                                                          | [Contribuer](#contribuer)                                     |
 
 ### Concevoir Pastebin.com (ou Bit.ly)
 
@@ -369,8 +369,8 @@ Consultez les liens suivants pour avoir une meilleure idée de ce qui vous atten
 | Concevez un jeu de cartes                                    | [Solution](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb) |
 | Concevez un parking                                          | [Solution](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)     |
 | Concevez un serveur de chat                                  | [Solution](solutions/object_oriented_design/online_chat/online_chat.ipynb)     |
-| Concevez un tableau circulaire                               | [Contribuer](#contributing)                                                    |
-| Ajouter une question en conception orientée objet            | [Contribuer](#contributing)                                                    |
+| Concevez un tableau circulaire                               | [Contribuer](#contribuer)                                                      |
+| Ajouter une question en conception orientée objet            | [Contribuer](#contribuer)                                                      |
 
 ## Sujets de conception de système : commencez ici
 
@@ -464,7 +464,7 @@ Attendre une réponse du nœud partitionné peut entraîner un délai d'expirati
 
 Les réponses retournent la version la plus disponible des données sur n'importe quel nœud, qui peut ne pas être la plus récente. Les écritures peuvent prendre du temps à être propagées lorsque la partition est résolue.
 
-AP est un bon choix si les besoins métier permettent une [cohérence éventuelle](#eventual-consistency) ou si le système doit continuer à fonctionner malgré des erreurs externes.
+AP est un bon choix si les besoins métier permettent une [cohérence éventuelle](#coherence-eventuelle) ou si le système doit continuer à fonctionner malgré des erreurs externes.
 
 ### Sources et lectures complémentaires
 
@@ -475,7 +475,7 @@ AP est un bon choix si les besoins métier permettent une [cohérence éventuell
 
 ## Modèles de cohérence
 
-Avec plusieurs copies des mêmes données, nous sommes confrontés à des options sur la manière de les synchroniser afin que les clients aient une vue cohérente des données. Rappelez-vous la définition de la cohérence selon le [théorème CAP](#cap-theorem) : chaque lecture reçoit la dernière écriture ou une erreur.
+Avec plusieurs copies des mêmes données, nous sommes confrontés à des options sur la manière de les synchroniser afin que les clients aient une vue cohérente des données. Rappelez-vous la définition de la cohérence selon le [théorème CAP](#theoreme-cap) : chaque lecture reçoit la dernière écriture ou une erreur.
 
 ### Cohérence faible
 
@@ -530,10 +530,10 @@ Le basculement actif-actif peut également être appelé basculement maître-ma�
 
 #### Maître-esclave et maître-maître
 
-Ce sujet est davantage discuté dans la section [Base de données](#database) :
+Ce sujet est davantage discuté dans la section [Base de données](#base-de-donnees) :
 
-* [Réplication maître-esclave](#master-slave-replication)
-* [Réplication maître-maître](#master-master-replication)
+* [Réplication maître-esclave](#replication-maitre-esclave)
+* [Réplication maître-maître](#replication-maitre-maitre)
 
 ### Disponibilité en chiffres
 
@@ -682,7 +682,7 @@ Bénéfices additionnels :
     * Élimine le besoin d'installer des [certificats X.509](https://en.wikipedia.org/wiki/X.509) sur chaque serveur
 * **Persistance de session** - Émettre des cookies et router les requêtes spécifiques d'un client vers la même instance si les applications web ne conservent pas les sessions
 
-Pour se protéger contre les pannes, il est courant d'installer plusieurs répartiteurs, en mode [actif-passif](#active-passive) ou [actif-actif](#active-active).
+Pour se protéger contre les pannes, il est courant d'installer plusieurs répartiteurs, en mode [actif-passif](#actif-passif) ou [actif-actif](#actif-actif).
 
 Les répartiteurs de charge peuvent router le trafic selon divers critères, incluant :
 
@@ -690,8 +690,8 @@ Les répartiteurs de charge peuvent router le trafic selon divers critères, inc
 * Moins chargé (Least loaded)
 * Session/cookies
 * [Round robin ou round robin pondéré](https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb)
-* [Niveau 4](#layer-4-load-balancing)
-* [Niveau 7](#layer-7-load-balancing)
+* [Niveau 4](#repartition-au-niveau-4)
+* [Niveau 7](#repartition-au-niveau-7)
 
 ### Répartition au niveau 4
 
@@ -711,7 +711,7 @@ Les répartiteurs de charge peuvent également faciliter la mise à l'échelle h
 
 * Augmente la complexité et nécessite la duplication de serveurs
     * Les serveurs doivent être sans état (stateless) : ils ne doivent pas contenir de données spécifiques aux utilisateurs
-    * Les sessions peuvent être stockées dans un datastore centralisé comme une [base de données](#database) (SQL, NoSQL) ou un [cache persistant](#cache) (Redis, Memcached)
+    * Les sessions peuvent être stockées dans un datastore centralisé comme une [base de données](#base-de-donnees) (SQL, NoSQL) ou un [cache persistant](#cache) (Redis, Memcached)
 * Les systèmes en aval (caches, bases de données) doivent gérer plus de connexions simultanées lorsque les serveurs en amont s'étendent.
 
 ### Inconvénients : répartiteur de charge
@@ -783,7 +783,7 @@ Les avantages supplémentaires incluent :
 
 L'isolation de la couche Web par rapport à la couche d'application (également appelée la couche plateforme) permet de dimensionner et de configurer ces deux couches indépendamment. Ajouter une nouvelle API se traduit par l'ajout de serveurs applicatifs sans nécessairement augmenter le nombre de serveurs web. Le **principe de responsabilité unique** préconise de petits services autonomes qui fonctionnent ensemble. De petites équipes avec de petits services peuvent planifier de manière plus agressive pour une croissance rapide.
 
-Les tâches asynchrones au sein de la couche application permettent également de bénéficier de [l'asynchronisme](#asynchronism).
+Les tâches asynchrones au sein de la couche application permettent également de bénéficier de [l'asynchronisme](#asynchronisme).
 
 ### Microservices
 
@@ -793,7 +793,7 @@ Par exemple, Pinterest pourrait avoir les microservices suivants : profil utilis
 
 ### Découverte de services
 
-Des systèmes tels que [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest) et [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) peuvent aider les services à se localiser mutuellement en tenant à jour les noms enregistrés, les adresses et les ports. Les [vérifications de l'état](https://www.consul.io/intro/getting-started/checks.html) permettent de vérifier l'intégrité des services, souvent via une requête [HTTP](#hypertext-transfer-protocol-http). Consul et Etcd intègrent un [magasin clé-valeur](#key-value-store) utile pour stocker les valeurs de configuration et d'autres données partagées.
+Des systèmes tels que [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest) et [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) peuvent aider les services à se localiser mutuellement en tenant à jour les noms enregistrés, les adresses et les ports. Les [vérifications de l'état](https://www.consul.io/intro/getting-started/checks.html) permettent de vérifier l'intégrité des services, souvent via une requête [HTTP](#hypertext-transfer-protocol-http). Consul et Etcd intègrent un [magasin clé-valeur](#magasin-cle-valeur) utile pour stocker les valeurs de configuration et d'autres données partagées.
 
 ### Inconvénients : couche application
 
@@ -927,7 +927,7 @@ Parmi les approches courantes pour fragmenter une table d'utilisateurs, on peut 
 
 La dénormalisation vise à améliorer les performances de lecture au détriment des performances d'écriture. Des copies redondantes des données sont écrites dans plusieurs tables pour éviter des jointures coûteuses. Certains SGBDR tels que [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) et Oracle prennent en charge des [vues matérialisées](https://en.wikipedia.org/wiki/Materialized_view) qui gèrent le stockage des informations redondantes et la cohérence des copies redondantes.
 
-Une fois les données distribuées par des techniques telles que la [fédération](#federation) ou la [fragmentation](#sharding), la gestion des jointures entre centres de données augmente encore la complexité. La dénormalisation peut contourner le besoin de telles jointures complexes.
+Une fois les données distribuées par des techniques telles que la [fédération](#federation) ou la [fragmentation](#sharding-fragmentation), la gestion des jointures entre centres de données augmente encore la complexité. La dénormalisation peut contourner le besoin de telles jointures complexes.
 
 Dans la plupart des systèmes, les lectures surpassent largement les écritures, parfois par des proportions de 100:1 ou même 1000:1. Une lecture avec une jointure complexe de bases peut être très coûteuse, nécessitant beaucoup d'opérations sur disque.
 
@@ -974,7 +974,7 @@ Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
 ##### Évitez les jointures coûteuses
 
-* [Dénormalisez](#denormalization) si nécessaire pour améliorer les performances.
+* [Dénormalisez](#denormalisation) si nécessaire pour améliorer les performances.
 
 ##### Partitionnez les tables
 
@@ -993,15 +993,15 @@ Les benchmarks et le profiling peuvent suggérer les optimisations suivantes.
 
 ### NoSQL
 
-NoSQL est un ensemble d'éléments de données représentés dans un **magasin clé-valeur**, un **magasin de documents**, un **magasin par colonnes larges** ou une **base de données orientée graphe**. Les données sont dénormalisées et les jointures sont généralement effectuées au niveau du code de l'application. La plupart des magasins NoSQL ne respectent pas complètement les transactions ACID et privilégient la [consistance éventuelle](#eventual-consistency).
+NoSQL est un ensemble d'éléments de données représentés dans un **magasin clé-valeur**, un **magasin de documents**, un **magasin par colonnes larges** ou une **base de données orientée graphe**. Les données sont dénormalisées et les jointures sont généralement effectuées au niveau du code de l'application. La plupart des magasins NoSQL ne respectent pas complètement les transactions ACID et privilégient la [consistance éventuelle](#coherence-eventuelle).
 
-**BASE** est souvent utilisé pour décrire les propriétés des bases de données NoSQL. Contrairement au [théorème CAP](#cap-theorem), BASE privilégie la disponibilité à la consistance.
+**BASE** est souvent utilisé pour décrire les propriétés des bases de données NoSQL. Contrairement au [théorème CAP](#theoreme-cap), BASE privilégie la disponibilité à la consistance.
 
 * **Basically available (disponibilité essentielle)** - Le système garantit la disponibilité.
 * **Soft state (état malléable)** - L'état du système peut évoluer au fil du temps, même sans entrée.
 * **Eventual consistency (consistance éventuelle)** - Le système deviendra cohérent après une période de temps, tant qu'il ne reçoit pas de nouvelles entrées pendant cette période.
 
-En plus de choisir entre [SQL ou NoSQL](#sql-or-nosql), il est utile de comprendre quel type de base de données NoSQL convient le mieux à vos cas d'utilisation. Nous examinerons les **magasins clé-valeur**, les **magasins de documents**, les **magasins par colonnes larges**, et les **bases de données orientées graphe** dans la section suivante.
+En plus de choisir entre [SQL ou NoSQL](#sql-ou-nosql), il est utile de comprendre quel type de base de données NoSQL convient le mieux à vos cas d'utilisation. Nous examinerons les **magasins clé-valeur**, les **magasins de documents**, les **magasins par colonnes larges**, et les **bases de données orientées graphe** dans la section suivante.
 
 #### Magasin clé-valeur
 
@@ -1146,15 +1146,15 @@ Les bases de données bénéficient souvent d'une répartition uniforme des lect
 
 ### Cache côté client
 
-Les caches peuvent se trouver côté client (système d'exploitation ou navigateur), [côté serveur](#reverse-proxy-web-server) ou dans une couche distincte dédiée au cache.
+Les caches peuvent se trouver côté client (système d'exploitation ou navigateur), [côté serveur](#proxy-inverse-serveur-web) ou dans une couche distincte dédiée au cache.
 
 ### Cache CDN
 
-Les [CDNs](#content-delivery-network) sont considérés comme un type de cache.
+Les [CDNs](#reseau-de-diffusion-de-contenu-cdn) sont considérés comme un type de cache.
 
 ### Cache au niveau du serveur web
 
-Des [proxies inverses](#reverse-proxy-web-server) et des caches comme [Varnish](https://www.varnish-cache.org/) peuvent servir directement du contenu statique et dynamique. Les serveurs web peuvent également mettre en cache des requêtes, renvoyant des réponses sans avoir besoin de contacter les serveurs applicatifs.
+Des [proxies inverses](#proxy-inverse-serveur-web) et des caches comme [Varnish](https://www.varnish-cache.org/) peuvent servir directement du contenu statique et dynamique. Les serveurs web peuvent également mettre en cache des requêtes, renvoyant des réponses sans avoir besoin de contacter les serveurs applicatifs.
 
 ### Cache de base de données
 
@@ -1562,7 +1562,7 @@ REST met l'accent sur l'exposition des données. Il minimise le couplage entre c
 
 ## Sécurité
 
-Cette section pourrait être mise à jour. Pensez à [contribuer](#contributing) !
+Cette section pourrait être mise à jour. Pensez à [contribuer](#contribuer) !
 
 La sécurité est un sujet vaste. À moins d'avoir une expérience considérable, un bagage en sécurité, ou de postuler un poste nécessitant des connaissances en sécurité, vous n'aurez probablement besoin de connaître que les bases :
 
@@ -1672,7 +1672,7 @@ Quelques métriques utiles basées sur les chiffres ci-dessus :
 | Concevez un système de gestion de la collecte des déchets          | [stuffwithstuff.com](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)<br/>[washington.edu](http://courses.cs.washington.edu/courses/csep521/07wi/prj/rick.pdf)                                                                                                                                                                                                                                                                  |
 | Concevez un seuil limite pour les appels d'API                     | [stripe.com](https://stripe.com/blog/rate-limiters)                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Concevez une bourse d'échange (comme NASDAQ ou Binance)            | [Jane Street](https://youtu.be/b1e4t2k2KJY)<br/>[Golang Implementation](https://around25.com/blog/building-a-trading-engine-for-a-crypto-exchange/)<br/>[Go Implementation](http://bhomnick.net/building-a-simple-limit-order-in-go/)                                                                                                                                                                                                                       |
-| Ajoutez une question sur la conception de système                  | [Contribuer](#contributing)                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Ajoutez une question sur la conception de système                  | [Contribuer](#contribuer)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ### Architectures réelles
 
@@ -1712,7 +1712,7 @@ Quelques métriques utiles basées sur les chiffres ci-dessus :
 | Divers                | **Dapper** - Infrastructure de traçage pour systèmes distribués                             | [research.google.com](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf)                                |
 | Divers                | **Kafka** - File d'attente de messages Pub/Sub par LinkedIn                                 | [slideshare.net](http://www.slideshare.net/mumrah/kafka-talk-tri-hug)                                                                          |
 | Divers                | **Zookeeper** - Infrastructure centralisée permettant la synchronisation                    | [slideshare.net](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper)                                                       |
-|                       | Ajoutez une architecture                                                                    | [Contribuer](#contributing)                                                                                                                    |
+|                       | Ajoutez une architecture                                                                    | [Contribuer](#contribuer)                                                                                                                      |
 
 ### Architectures des entreprises
 
@@ -1797,12 +1797,12 @@ Si vous cherchez à ajouter un blog, et pour éviter de dupliquer le travail, en
 
 ## En cours de développement
 
-Intéressé(e) à ajouter une section ou à compléter une partie en cours ? [Contribuer](#contributing) !
+Intéressé(e) à ajouter une section ou à compléter une partie en cours ? [Contribuer](#contribuer) !
 
 * Informatique distribuée avec MapReduce
 * Hachage consistant
 * Scatter-Gather
-* [Contribuer](#contributing)
+* [Contribuer](#contribuer)
 
 ## Crédits
 
